@@ -9,6 +9,27 @@ Nigoro의 플래시 게임 *Rose & Camellia* (2007, `rosecamelliaEng.swf`)를 �
 
 > 원작 에셋은 저작권물이라 `downloads/`, `assets-original/`, `public/assets-original/`는 `.gitignore` 처리되어 GitHub 저장소에는 포함되지 않음.
 
+## 스크린샷
+
+### 타이틀 · 설정
+
+<img src="docs/screenshots/title.jpg" alt="타이틀 화면: 플레이 방법, 입력/난이도/스윙 감도 설정" width="600">
+
+### 튜토리얼
+
+| 연습 1 — 공격 | 연습 3 — 회피 |
+|---|---|
+| ![튜토리얼 공격 연습](docs/screenshots/tutorial-attack.jpg) | ![튜토리얼 회피 연습](docs/screenshots/tutorial-evade.jpg) |
+| 빨간 선(얼굴)을 지나가게 ← 빠르게 휘두르기 | 상대가 손을 들면 파란 선을 넘어 → 오른쪽으로 휙 |
+
+### 게임플레이
+
+| 내 차례 — 공격 준비 | 싸대기 명중 |
+|---|---|
+| ![공격 준비](docs/screenshots/gameplay-attack.jpg) | ![명중](docs/screenshots/gameplay-hit.jpg) |
+| **상대 차례 — 회피 신호** | **회피 실패 시 반격당함** |
+| ![회피 신호](docs/screenshots/gameplay-evade.jpg) | ![상대의 싸대기](docs/screenshots/gameplay-enemy-slap.jpg) |
+
 ## 실행
 
 ```bash
