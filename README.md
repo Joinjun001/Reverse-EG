@@ -3,7 +3,11 @@
 Nigoro의 플래시 게임 *Rose & Camellia* (2007, `rosecamelliaEng.swf`)를 디컴파일해서
 게임 로직과 에셋을 복원하고, 웹캠 손 인식(MediaPipe)으로 직접 싸대기를 휘두르는 웹 게임으로 옮긴 개인 학습용 프로젝트.
 
-> 원작 에셋은 저작권물이라 `downloads/`, `assets-original/`, `public/assets-original/`는 `.gitignore` 처리돼 있음. 배포 금지.
+## 웹에서 플레이
+
+**[reverse-eg-slap.vercel.app](https://reverse-eg-slap.vercel.app)**
+
+> 원작 에셋은 저작권물이라 `downloads/`, `assets-original/`, `public/assets-original/`는 `.gitignore` 처리되어 GitHub 저장소에는 포함되지 않음.
 
 ## 실행
 
@@ -13,17 +17,18 @@ npm run assets   # assets-original/ → public/assets-original/ (+ manifest.json
 npm run dev      # http://localhost:5173  (?input=mouse 마우스 모드, ?debug 판정선 표시)
 ```
 
-### 비공개 배포 (Vercel)
+### 배포 (Vercel)
+
+프로덕션 사이트는 [reverse-eg-slap.vercel.app](https://reverse-eg-slap.vercel.app)에서 공개 중.
+로그인이 필요한 비공개 preview 배포가 필요할 때는 아래 명령을 사용:
 
 ```bash
 npx vercel login
 npm run deploy:private
 ```
 
-- 빌드 결과(`dist/`)만 **preview** 배포로 올림 → Vercel 로그인한 본인만 접속 가능 (Vercel Authentication)
-- 정식(production) 주소 `reverse-eg-slap.vercel.app`은 Standard Protection에서 **공개**라서 빈 안내 페이지만 둠.
-  정식 배포가 없으면 Vercel이 다음 배포를 정식으로 올려버리니 그 페이지는 지우지 말 것. `--prod` 금지
-- 스크립트가 배포 후 비로그인 요청으로 확인하고, 공개 상태면 바로 삭제함
+- `deploy:private`는 빌드 결과(`dist/`)만 **preview** 배포로 올림
+- preview URL은 Vercel Authentication으로 보호되며, 스크립트가 공개 상태로 감지하면 해당 배포를 바로 삭제함
 
 `assets-original/`이 없으면 먼저 추출:
 
