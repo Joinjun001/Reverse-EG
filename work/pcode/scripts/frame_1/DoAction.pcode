@@ -1,0 +1,259 @@
+Jump loc0086
+loc0005:Push "iBytesTotal", 0.0, "_root"
+GetVariable
+Push "getBytesTotal"
+CallMethod
+SetVariable
+Push "iBytesLoaded", 0.0, "_root"
+GetVariable
+Push "getBytesLoaded"
+CallMethod
+SetVariable
+Push "iBytes", "iBytesLoaded"
+GetVariable
+Push "iBytesTotal"
+GetVariable
+Divide
+Push 100
+Multiply
+Push 1, "Math"
+GetVariable
+Push "floor"
+CallMethod
+SetVariable
+Push "pBar", 2f, "iBytes"
+GetVariable
+SetProperty
+Push "sStatus", "iBytes"
+GetVariable
+Push "%"
+Add2
+SetVariable
+Jump loc042b
+loc0081:Jump loc0005
+loc0086:DefineFunction "\x01\x02", 0 {
+Push 2362
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -1079
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc00cc:Push "\x01"
+Jump loc00dd
+loc00d7:Unknown_03
+Jump loc0467
+loc00dd:GetVariable
+Push 511
+Equals
+Not
+If loc010e
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 312
+Subtract
+SetVariable
+Push true
+Jump loc00cc
+loc010e:Push "\x01"
+GetVariable
+Push 199
+Equals
+Not
+If loc0161
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 191
+Subtract
+SetVariable
+If loc0145
+Jump loc015c
+loc0145:Push "\x01"
+Push "\x01"
+GetVariable
+Push 541
+Add
+SetVariable
+loc015c:Jump loc00cc
+loc0161:Push "\x01"
+GetVariable
+Push 315
+Equals
+Not
+If loc0194
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 171
+Add
+SetVariable
+Not
+Jump loc00cc
+loc0194:Push "\x01"
+GetVariable
+Push 669
+Equals
+Not
+If loc01c7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 354
+Subtract
+SetVariable
+GetVariable
+Jump loc00cc
+loc01c7:Push "\x01"
+GetVariable
+Push 486
+Equals
+Not
+If loc021a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 166
+Add
+SetVariable
+If loc01fe
+Jump loc0215
+loc01fe:Push "\x01"
+Push "\x01"
+GetVariable
+Push 197
+Subtract
+SetVariable
+loc0215:Jump loc00cc
+loc021a:Push "\x01"
+GetVariable
+Push 161
+Equals
+Not
+If loc0259
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 13
+Add
+SetVariable
+ConstantPool "{invalid_utf8=139}L{invalid_utf8=133}", "{invalid_utf8=233}{invalid_utf8=182}h"
+Jump loc00cc
+loc0259:Push "\x01"
+GetVariable
+Push 278
+Equals
+Not
+If loc0291
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 391
+Add
+SetVariable
+Push "\x0f"
+Jump loc00cc
+loc0291:Push "\x01"
+GetVariable
+Push 8
+Equals
+Not
+If loc02c3
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 541
+Add
+SetVariable
+Jump loc0467
+loc02c3:Push "\x01"
+GetVariable
+Push 549
+Equals
+Not
+If loc02f5
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 375
+Subtract
+SetVariable
+Jump loc00cc
+loc02f5:Push "\x01"
+GetVariable
+Push 386
+Equals
+Not
+If loc0328
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 108
+Subtract
+SetVariable
+DefineLocal
+Jump loc00cc
+loc0328:Push "\x01"
+GetVariable
+Push 174
+Equals
+Not
+If loc0365
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 212
+Add
+SetVariable
+Push "\x0f", 1
+Jump loc00cc
+loc0365:Push "\x01"
+GetVariable
+Push 652
+Equals
+Not
+If loc03f9
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 197
+Subtract
+SetVariable
+ConstantPool "iBytesTotal", "_root", "getBytesTotal", "iBytesLoaded", "getBytesLoaded", "iBytes", "Math", "floor", "pBar", "sStatus", "%"
+Jump loc00cc
+loc03f9:Push "\x01"
+GetVariable
+Push 455
+Equals
+Not
+If loc0430
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 92
+Add
+SetVariable
+Jump loc0081
+loc042b:Jump loc0467
+loc0430:Push "\x01"
+GetVariable
+Push 547
+Equals
+Not
+If loc0462
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 547
+Subtract
+SetVariable
+Jump loc0467
+loc0462:Jump loc00d7
+loc0467:

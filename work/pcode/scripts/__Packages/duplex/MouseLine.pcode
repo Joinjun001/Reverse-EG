@@ -1,0 +1,1035 @@
+Jump loc0e22
+loc0005:Add
+Jump loc12fa
+loc000b:Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Not
+Not
+If loc0036
+Push "_global"
+GetVariable
+Push "duplex", 0.0, "Object"
+NewObject
+SetMember
+loc0036:Pop
+Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Push "MouseLine"
+GetMember
+Not
+Not
+If loc0e17
+Push "duplex"
+GetVariable
+Push "MouseLine"
+DefineFunction2 "", 4, 10, false, false, true, false, true, false, false, true, false, 9, "myMC", 8, "st", 6, "nm", 7, "dep" {
+Push undefined
+StoreRegister 2
+Pop
+Push undefined
+StoreRegister 3
+Pop
+Push register1, "po", 3, 1, "Array"
+NewObject
+SetMember
+Push 0.0
+StoreRegister 2
+Pop
+loc00b1:Push register2, 3
+Less2
+Not
+If loc00fc
+Push register1, "po"
+GetMember
+Push register2, "x", 0.0, "y", 0.0, 2
+InitObject
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc00b1
+loc00fc:Push register1, "ob", "x", -1, "y", -1, 2
+InitObject
+SetMember
+Push register1, "name", register6
+SetMember
+Push register1, "defaultMC", register7, register8, 2, register9, "createEmptyMovieClip"
+CallMethod
+SetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Push register1, "name"
+GetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Add2
+Push register1, "name"
+GetMember
+Push 3, register1, "defaultMC"
+GetMember
+Push "attachMovie"
+CallMethod
+StoreRegister 3
+Pop
+Push register1, "maxFrame", register3, "_totalframes"
+GetMember
+SetMember
+Push 0.0, register3, "removeMovieClip"
+CallMethod
+Pop
+Push register1, "lineMc", 4, 1, "Array"
+NewObject
+SetMember
+Push 0.0
+StoreRegister 2
+Pop
+loc01d4:Push register2, 4
+Equals2
+Not
+Not
+If loc021d
+Push register1, "lineMc"
+GetMember
+Push register2, register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Push 1, "Array"
+NewObject
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc01d4
+loc021d:Push register1, "lineFl", register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Push 1, "Array"
+NewObject
+SetMember
+Push 0.0
+StoreRegister 2
+Pop
+loc024f:Push register2, register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Equals2
+Not
+Not
+If loc028d
+Push register1, "lineFl"
+GetMember
+Push register2, -1
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc024f
+loc028d:Push register1, "myMath", 0.0, "duplex"
+GetVariable
+Push "Sub"
+NewMethod
+SetMember
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "drawLine"
+DefineFunction2 "", 4, 12, false, false, true, false, true, false, false, true, false, 8, "x1", 7, "y1", 6, "x2", 5, "y2" {
+Push undefined
+StoreRegister 3
+Pop
+Push undefined
+StoreRegister 11
+Pop
+Push undefined
+StoreRegister 10
+Pop
+Push undefined
+StoreRegister 9
+Pop
+Push "x", 0.0, "y", 0.0, 2
+InitObject
+StoreRegister 2
+Pop
+Push "x", 0.0, "y", 0.0, 2
+InitObject
+StoreRegister 4
+Pop
+Push 0.0
+StoreRegister 3
+Pop
+loc0358:Push register3, register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Equals2
+Not
+Not
+If loc0991
+Push register1, "lineFl"
+GetMember
+Push register3
+GetMember
+Push -1
+Equals2
+Not
+If loc0981
+Push register1, "lineFl"
+GetMember
+Push register3, register1, "maxFrame"
+GetMember
+Push 1
+Subtract
+SetMember
+Push register1, "ob"
+GetMember
+Push "x"
+GetMember
+Push -1
+Equals2
+Not
+If loc0474
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push "x", register1, "po"
+GetMember
+Push 1
+GetMember
+Push "x", register8
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push "y", register1, "po"
+GetMember
+Push 1
+GetMember
+Push "y", register7
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, "po"
+GetMember
+Push 2
+GetMember
+Push "x", register6
+SetMember
+Push register1, "po"
+GetMember
+Push 2
+GetMember
+Push "y", register5
+SetMember
+Jump loc0524
+loc0474:Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push "x", register8
+SetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push "y", register7
+SetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push "x", register1, "ob"
+GetMember
+Push "x"
+GetMember
+SetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push "y", register1, "ob"
+GetMember
+Push "y"
+GetMember
+SetMember
+Push register1, "po"
+GetMember
+Push 2
+GetMember
+Push "x", register6
+SetMember
+Push register1, "po"
+GetMember
+Push 2
+GetMember
+Push "y", register5
+SetMember
+loc0524:Push register1, "lineMc"
+GetMember
+Push 0.0
+GetMember
+Push register3, 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Push register1, "name"
+GetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Add2
+Push register1, "name"
+GetMember
+Push 3, register1, "defaultMC"
+GetMember
+Push "attachMovie"
+CallMethod
+SetMember
+Push 0.25, register1, "po"
+GetMember
+Push 2
+GetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push 4, register1, "myMath"
+GetMember
+Push "getBezPoint"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, 0.0, register2, "y"
+GetMember
+Push register2, "x"
+GetMember
+Push register7, register8, 6, register1, "sumPoint"
+CallMethod
+Pop
+Push register4, "x", register2, "x"
+GetMember
+SetMember
+Push register4, "y", register2, "y"
+GetMember
+SetMember
+Push register1, "lineMc"
+GetMember
+Push 1
+GetMember
+Push register3, 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Push register1, "name"
+GetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Add2
+Push register1, "name"
+GetMember
+Push 3, register1, "defaultMC"
+GetMember
+Push "attachMovie"
+CallMethod
+SetMember
+Push 0.5, register1, "po"
+GetMember
+Push 2
+GetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push 4, register1, "myMath"
+GetMember
+Push "getBezPoint"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, 1, register2, "y"
+GetMember
+Push register2, "x"
+GetMember
+Push register4, "y"
+GetMember
+Push register4, "x"
+GetMember
+Push 6, register1, "sumPoint"
+CallMethod
+Pop
+Push register4, "x", register2, "x"
+GetMember
+SetMember
+Push register4, "y", register2, "y"
+GetMember
+SetMember
+Push register1, "lineMc"
+GetMember
+Push 2
+GetMember
+Push register3, 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Push register1, "name"
+GetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Add2
+Push register1, "name"
+GetMember
+Push 3, register1, "defaultMC"
+GetMember
+Push "attachMovie"
+CallMethod
+SetMember
+Push 0.75, register1, "po"
+GetMember
+Push 2
+GetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push 4, register1, "myMath"
+GetMember
+Push "getBezPoint"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, 2, register2, "y"
+GetMember
+Push register2, "x"
+GetMember
+Push register4, "y"
+GetMember
+Push register4, "x"
+GetMember
+Push 6, register1, "sumPoint"
+CallMethod
+Pop
+Push register4, "x", register2, "x"
+GetMember
+SetMember
+Push register4, "y", register2, "y"
+GetMember
+SetMember
+Push register1, "lineMc"
+GetMember
+Push 3
+GetMember
+Push register3, 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Push register1, "name"
+GetMember
+Push 0.0, register1, "defaultMC"
+GetMember
+Push "getNextHighestDepth"
+CallMethod
+Add2
+Push register1, "name"
+GetMember
+Push 3, register1, "defaultMC"
+GetMember
+Push "attachMovie"
+CallMethod
+SetMember
+Push 1, register1, "po"
+GetMember
+Push 2
+GetMember
+Push register1, "po"
+GetMember
+Push 1
+GetMember
+Push register1, "po"
+GetMember
+Push 0.0
+GetMember
+Push 4, register1, "myMath"
+GetMember
+Push "getBezPoint"
+CallMethod
+StoreRegister 2
+Pop
+Push register3, 3, register2, "y"
+GetMember
+Push register2, "x"
+GetMember
+Push register4, "y"
+GetMember
+Push register4, "x"
+GetMember
+Push 6, register1, "sumPoint"
+CallMethod
+Pop
+Push register6, register4, "x"
+GetMember
+Subtract
+StoreRegister 10
+Pop
+Push register5, register4, "y"
+GetMember
+Subtract
+StoreRegister 9
+Pop
+Push register1, "ob"
+GetMember
+Push "x", register6, register10
+Add2
+SetMember
+Push register1, "ob"
+GetMember
+Push "y", register5, register9
+Add2
+SetMember
+Jump loc0991
+loc0981:Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc0358
+loc0991:Push 0.0
+StoreRegister 3
+Pop
+loc09a2:Push register3, register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Equals2
+Not
+Not
+If loc09fe
+Push register1, "lineFl"
+GetMember
+Push register3
+GetMember
+Push 0.0
+Greater
+Not
+If loc09ee
+Push register3, 1, register1, "lineLife"
+CallMethod
+Pop
+loc09ee:Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc09a2
+}
+loc09fe:SetMember
+Push register2, "sumPoint"
+DefineFunction2 "", 6, 8, false, false, true, false, true, false, false, true, false, 7, "x1", 5, "y1", 6, "x2", 4, "y2", 2, "j", 3, "i" {
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "blendMode", 8
+SetMember
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_alpha", 60
+SetMember
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_height", register4, register6, register5, register7, 4, register1, "myMath"
+GetMember
+Push "pointLength"
+CallMethod
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_width"
+GetMember
+Push 2
+Divide
+Add2
+SetMember
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_rotation", register4, register6, register5, register7, 4, register1, "myMath"
+GetMember
+Push "getC"
+CallMethod
+Push 90
+Add2
+SetMember
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_x", register6, register7
+Add2
+Push 2
+Divide
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+SetMember
+Push register1, "lineMc"
+GetMember
+Push register2
+GetMember
+Push register3
+GetMember
+Push "_y", register4, register5
+Add2
+Push 2
+Divide
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+SetMember
+}
+SetMember
+Push register2, "lineLife"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "i" {
+Push register1, "lineFl"
+GetMember
+Push register2, register1, "lineFl"
+GetMember
+Push register2
+GetMember
+Decrement
+SetMember
+Push register1, "lineFl"
+GetMember
+Push register2
+GetMember
+Push 0.0
+Equals2
+Not
+If loc0c6c
+Push 0.0, register1, "lineMc"
+GetMember
+Push 0.0
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 1
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 2
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 3
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push register1, "lineFl"
+GetMember
+Push register2, -1
+SetMember
+}
+loc0c6c:SetMember
+Push register2, "setAlpha"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "i" {
+Push register1, "defaultMC"
+GetMember
+Push "_alpha", register2
+SetMember
+}
+SetMember
+Push register2, "final"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push undefined
+StoreRegister 2
+Pop
+Push 0.0
+StoreRegister 2
+Pop
+loc0cbf:Push register2, register1, "maxFrame"
+GetMember
+Push 2
+Add2
+Equals2
+Not
+Not
+If loc0dba
+Push register1, "lineFl"
+GetMember
+Push register2
+GetMember
+Push -1
+Greater
+Not
+If loc0daa
+Push 0.0, register1, "lineMc"
+GetMember
+Push 0.0
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 1
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 2
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0.0, register1, "lineMc"
+GetMember
+Push 3
+GetMember
+Push register2
+GetMember
+Push "removeMovieClip"
+CallMethod
+Pop
+Push register1, "lineFl"
+GetMember
+Push register2, -1
+SetMember
+loc0daa:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc0cbf
+loc0dba:Push register1, "defaultMC"
+GetMember
+Push "_alpha", 100
+SetMember
+Push register1, "ob"
+GetMember
+Push "x", -1
+SetMember
+Push register1, "ob"
+GetMember
+Push "y", -1
+SetMember
+}
+SetMember
+Push 1, null, "duplex"
+GetVariable
+Push "MouseLine"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc0e17:Pop
+Jump loc100d
+loc0e1d:Jump loc000b
+loc0e22:DefineFunction "\x01\x02", 0 {
+Push 2706
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -540
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc0e68:Push "\x01"
+Jump loc0e79
+loc0e73:Unknown_03
+Jump loc12fa
+loc0e79:GetVariable
+Push 215
+Equals
+Not
+If loc0eaa
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 550
+Add
+SetVariable
+Push true
+Jump loc0e68
+loc0eaa:Push "\x01"
+GetVariable
+Push 765
+Equals
+Not
+If loc0efd
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 140
+Subtract
+SetVariable
+If loc0ee1
+Jump loc0ef8
+loc0ee1:Push "\x01"
+Push "\x01"
+GetVariable
+Push 29
+Subtract
+SetVariable
+loc0ef8:Jump loc0e68
+loc0efd:Push "\x01"
+GetVariable
+Push 596
+Equals
+Not
+If loc0f2f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 276
+Add
+SetVariable
+Jump loc0e68
+loc0f2f:Push "\x01"
+GetVariable
+Push 697
+Equals
+Not
+If loc0f62
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 60
+Subtract
+SetVariable
+GetVariable
+Jump loc0e68
+loc0f62:Push "\x01"
+GetVariable
+Push 625
+Equals
+Not
+If loc0f94
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 29
+Subtract
+SetVariable
+Jump loc0005
+loc0f94:Push "\x01"
+GetVariable
+Push 626
+Equals
+Not
+If loc0fdb
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 246
+Add
+SetVariable
+ConstantPool "{invalid_utf8=183}{invalid_utf8=135}y{invalid_utf8=174}", "{invalid_utf8=172}\x1a{invalid_utf8=242}", "\x03{invalid_utf8=139}{invalid_utf8=188}", "{invalid_utf8=136}{invalid_utf8=131}"
+Jump loc0e68
+loc0fdb:Push "\x01"
+GetVariable
+Push 981
+Equals
+Not
+If loc1012
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 24
+Subtract
+SetVariable
+Jump loc0e1d
+loc100d:Jump loc12fa
+loc1012:Push "\x01"
+GetVariable
+Push 599
+Equals
+Not
+If loc104a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 98
+Add
+SetVariable
+Push "\x0f"
+Jump loc0e68
+loc104a:Push "\x01"
+GetVariable
+Push 646
+Equals
+Not
+If loc11cd
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 335
+Add
+SetVariable
+ConstantPool "_global", "duplex", "Object", "MouseLine", "po", "Array", "x", "y", "ob", "name", "defaultMC", "createEmptyMovieClip", "getNextHighestDepth", "attachMovie", "maxFrame", "_totalframes", "removeMovieClip", "lineMc", "lineFl", "myMath", "Sub", "prototype", "drawLine", "getBezPoint", "sumPoint", "lineLife", "blendMode", "_alpha", "_height", "pointLength", "_width", "_rotation", "getC", "_x", "Math", "abs", "_y", "setAlpha", "final", "ASSetPropFlags"
+Jump loc0e68
+loc11cd:Push "\x01"
+GetVariable
+Push 637
+Equals
+Not
+If loc1200
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 7
+Add
+SetVariable
+Not
+Jump loc0e68
+loc1200:Push "\x01"
+GetVariable
+Push 872
+Equals
+Not
+If loc123d
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 656
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc0e68
+loc123d:Push "\x01"
+GetVariable
+Push 216
+Equals
+Not
+If loc1270
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 383
+Add
+SetVariable
+DefineLocal
+Jump loc0e68
+loc1270:Push "\x01"
+GetVariable
+Push 644
+Equals
+Not
+If loc12c3
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 2
+Add
+SetVariable
+If loc12a7
+Jump loc12be
+loc12a7:Push "\x01"
+Push "\x01"
+GetVariable
+Push 335
+Add
+SetVariable
+loc12be:Jump loc0e68
+loc12c3:Push "\x01"
+GetVariable
+Push 957
+Equals
+Not
+If loc12f5
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 957
+Subtract
+SetVariable
+Jump loc12fa
+loc12f5:Jump loc0e73
+loc12fa:

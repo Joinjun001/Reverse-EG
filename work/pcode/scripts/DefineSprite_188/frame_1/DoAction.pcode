@@ -1,0 +1,267 @@
+Jump loc00b5
+loc0005:Unknown_03
+Jump loc04de
+loc000b:DefineFunction2 "gotoRegisterPage", 0, 3, false, false, true, false, true, false, true, false, false {
+Push 0.0, "NigoroFlashManager"
+GetVariable
+Push "getNigoroSession"
+CallMethod
+StoreRegister 1
+Pop
+Push register1
+Not
+If loc0063
+Push "http://nigoro.asterizm.net/register/nigoro_register.php?NIGORO=", register1
+Add2
+StoreRegister 2
+Pop
+Push register2, "_blank"
+GetURL2 false, false, 0
+}
+loc0063:Push "nigoro002", 1, "NigoroFlashManager"
+GetVariable
+Push "setGameID"
+CallMethod
+Pop
+Push 0.0, "_root"
+GetVariable
+Push "game"
+GetMember
+Push "Gs"
+GetMember
+Push "getGameLv"
+CallMethod
+Push 1, "NigoroFlashManager"
+GetVariable
+Push "setGameLevel"
+CallMethod
+Pop
+Play
+Jump loc016f
+loc00b0:Jump loc000b
+loc00b5:DefineFunction "\x01\x02", 0 {
+Push 2654
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push 359
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc00fb:Push "\x01"
+Jump loc010c
+loc0106:Unknown_03
+Jump loc04de
+loc010c:GetVariable
+Push 854
+Equals
+Not
+If loc013d
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 91
+Subtract
+SetVariable
+Push true
+Jump loc00fb
+loc013d:Push "\x01"
+GetVariable
+Push 415
+Equals
+Not
+If loc0174
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 238
+Subtract
+SetVariable
+Jump loc00b0
+loc016f:Jump loc04de
+loc0174:Push "\x01"
+GetVariable
+Push 275
+Equals
+Not
+If loc024f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 140
+Add
+SetVariable
+ConstantPool "NigoroFlashManager", "getNigoroSession", "http://nigoro.asterizm.net/register/nigoro_register.php?NIGORO=", "_blank", "nigoro002", "setGameID", "_root", "game", "Gs", "getGameLv", "setGameLevel"
+Jump loc00fb
+loc024f:Push "\x01"
+GetVariable
+Push 450
+Equals
+Not
+If loc0281
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 8
+Subtract
+SetVariable
+Jump loc0005
+loc0281:Push "\x01"
+GetVariable
+Push 967
+Equals
+Not
+If loc02d4
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 692
+Subtract
+SetVariable
+If loc02b8
+Jump loc02cf
+loc02b8:Push "\x01"
+Push "\x01"
+GetVariable
+Push 140
+Add
+SetVariable
+loc02cf:Jump loc00fb
+loc02d4:Push "\x01"
+GetVariable
+Push 907
+Equals
+Not
+If loc0307
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 60
+Add
+SetVariable
+Not
+Jump loc00fb
+loc0307:Push "\x01"
+GetVariable
+Push 442
+Equals
+Not
+If loc0339
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 343
+Subtract
+SetVariable
+Jump loc00fb
+loc0339:Push "\x01"
+GetVariable
+Push 61
+Equals
+Not
+If loc036c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 846
+Add
+SetVariable
+GetVariable
+Jump loc00fb
+loc036c:Push "\x01"
+GetVariable
+Push 30
+Equals
+Not
+If loc039f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 802
+Add
+SetVariable
+DefineLocal
+Jump loc00fb
+loc039f:Push "\x01"
+GetVariable
+Push 177
+Equals
+Not
+If loc03d1
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 177
+Subtract
+SetVariable
+Jump loc04de
+loc03d1:Push "\x01"
+GetVariable
+Push 99
+Equals
+Not
+If loc040e
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 69
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc00fb
+loc040e:Push "\x01"
+GetVariable
+Push 832
+Equals
+Not
+If loc0446
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 771
+Subtract
+SetVariable
+Push "\x0f"
+Jump loc00fb
+loc0446:Push "\x01"
+GetVariable
+Push 621
+Equals
+Not
+If loc0486
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 522
+Subtract
+SetVariable
+ConstantPool "b{invalid_utf8=170}", "{invalid_utf8=225}{invalid_utf8=138}", "ƻ"
+Jump loc00fb
+loc0486:Push "\x01"
+GetVariable
+Push 763
+Equals
+Not
+If loc04d9
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 313
+Subtract
+SetVariable
+If loc04bd
+Jump loc04d4
+loc04bd:Push "\x01"
+Push "\x01"
+GetVariable
+Push 8
+Subtract
+SetVariable
+loc04d4:Jump loc00fb
+loc04d9:Jump loc0106
+loc04de:

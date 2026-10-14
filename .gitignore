@@ -1,0 +1,16 @@
+# Copyrighted original game files — personal study only, never commit
+downloads/
+assets-original/
+public/assets-original/
+
+# Third-party tools
+tools/
+
+node_modules/
+dist/
+.DS_Store
+
+# Vercel
+.vercel/
+.vercel
+.env*

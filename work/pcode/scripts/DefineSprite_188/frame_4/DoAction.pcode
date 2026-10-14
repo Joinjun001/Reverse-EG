@@ -1,0 +1,262 @@
+Jump loc008f
+loc0005:Jump loc0478
+loc000a:Push 0.0, "NigoroFlashManager"
+GetVariable
+Push "getAccessStatus"
+CallMethod
+StoreRegister 0
+Push "NigoroFlashManager"
+GetVariable
+Push "ACCESS_STATUS_OK"
+GetMember
+StrictEquals
+If loc0062
+Push register0, "NigoroFlashManager"
+GetVariable
+Push "ACCESS_STATUS_RUNNING"
+GetMember
+StrictEquals
+If loc0068
+Push register0, "NigoroFlashManager"
+GetVariable
+Push "ACCESS_STATUS_ERROR"
+GetMember
+StrictEquals
+If loc0076
+Jump loc0085
+loc0062:NextFrame
+Jump loc0085
+loc0068:GoToLabel "Wait"
+Play
+Jump loc0085
+loc0076:GoToLabel "Start"
+Play
+Jump loc0085
+loc0085:Jump loc043c
+loc008a:Jump loc000a
+loc008f:DefineFunction "\x01\x02", 0 {
+Push 2786
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -370
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc00d5:Push "\x01"
+Jump loc00e6
+loc00e0:Unknown_03
+Jump loc0478
+loc00e6:GetVariable
+Push 785
+Equals
+Not
+If loc0117
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 542
+Subtract
+SetVariable
+Push true
+Jump loc00d5
+loc0117:Push "\x01"
+GetVariable
+Push 790
+Equals
+Not
+If loc0149
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 325
+Subtract
+SetVariable
+Jump loc00d5
+loc0149:Push "\x01"
+GetVariable
+Push 243
+Equals
+Not
+If loc019c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 148
+Subtract
+SetVariable
+If loc0180
+Jump loc0197
+loc0180:Push "\x01"
+Push "\x01"
+GetVariable
+Push 695
+Add
+SetVariable
+loc0197:Jump loc00d5
+loc019c:Push "\x01"
+GetVariable
+Push 95
+Equals
+Not
+If loc01ce
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 695
+Add
+SetVariable
+Jump loc0005
+loc01ce:Push "\x01"
+GetVariable
+Push 726
+Equals
+Not
+If loc0214
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 261
+Subtract
+SetVariable
+ConstantPool "Ջ {invalid_utf8=249}", "{invalid_utf8=220}Y", "{invalid_utf8=253}{invalid_utf8=210}", "\"{invalid_utf8=226}{invalid_utf8=163}"
+Jump loc00d5
+loc0214:Push "\x01"
+GetVariable
+Push 187
+Equals
+Not
+If loc024c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 130
+Add
+SetVariable
+Push "\x0f"
+Jump loc00d5
+loc024c:Push "\x01"
+GetVariable
+Push 465
+Equals
+Not
+If loc0289
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 74
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc00d5
+loc0289:Push "\x01"
+GetVariable
+Push 391
+Equals
+Not
+If loc02bc
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 204
+Subtract
+SetVariable
+DefineLocal
+Jump loc00d5
+loc02bc:Push "\x01"
+GetVariable
+Push 495
+Equals
+Not
+If loc030f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 293
+Add
+SetVariable
+If loc02f3
+Jump loc030a
+loc02f3:Push "\x01"
+Push "\x01"
+GetVariable
+Push 103
+Add
+SetVariable
+loc030a:Jump loc00d5
+loc030f:Push "\x01"
+GetVariable
+Push 317
+Equals
+Not
+If loc0342
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 199
+Add
+SetVariable
+GetVariable
+Jump loc00d5
+loc0342:Push "\x01"
+GetVariable
+Push 516
+Equals
+Not
+If loc0375
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 21
+Subtract
+SetVariable
+Not
+Jump loc00d5
+loc0375:Push "\x01"
+GetVariable
+Push 788
+Equals
+Not
+If loc040a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 103
+Add
+SetVariable
+ConstantPool "NigoroFlashManager", "getAccessStatus", "ACCESS_STATUS_OK", "ACCESS_STATUS_RUNNING", "ACCESS_STATUS_ERROR"
+Jump loc00d5
+loc040a:Push "\x01"
+GetVariable
+Push 891
+Equals
+Not
+If loc0441
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 885
+Subtract
+SetVariable
+Jump loc008a
+loc043c:Jump loc0478
+loc0441:Push "\x01"
+GetVariable
+Push 6
+Equals
+Not
+If loc0473
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 6
+Subtract
+SetVariable
+Jump loc0478
+loc0473:Jump loc00e0
+loc0478:

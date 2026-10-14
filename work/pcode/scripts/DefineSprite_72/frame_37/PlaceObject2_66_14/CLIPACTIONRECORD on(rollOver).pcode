@@ -1,0 +1,487 @@
+Jump loc0ae7
+loc0005:Unknown_5c
+Push constant9824, null, register70, register177, "=leԥ{invalid_utf8=149}\x15ϨLu\x05{invalid_utf8=139}", true, register131, true, 6.419434554666508e-31, undefined, "{invalid_utf8=148}{invalid_utf8=168}{invalid_utf8=187}uI{invalid_utf8=175}qn{invalid_utf8=255}", true, true, "3{invalid_utf8=249}{invalid_utf8=142}{invalid_utf8=216}{invalid_utf8=249}{invalid_utf8=253}\x1ci^K{invalid_utf8=208}W͈ml{invalid_utf8=186}ͭ\x0e{invalid_utf8=214}\x1b{invalid_utf8=159}tė@{invalid_utf8=171}{invalid_utf8=233}J{invalid_utf8=145}׸\x04u{invalid_utf8=140}{invalid_utf8=241}{invalid_utf8=163}P$K{invalid_utf8=247}\x14l{invalid_utf8=236}{invalid_utf8=175}I\x05{invalid_utf8=173}t{invalid_utf8=161}U\x0e{invalid_utf8=172}{invalid_utf8=153}{invalid_utf8=136}\"3{invalid_utf8=128}{invalid_utf8=191}\x0e{invalid_utf8=248}7{invalid_utf8=132}��{invalid_utf8=186}{invalid_utf8=153}Ǵ{invalid_utf8=253}{invalid_utf8=200}]`{invalid_utf8=255}", undefined, "H{invalid_utf8=244}l$όt{invalid_utf8=199}{invalid_utf8=212}wm{invalid_utf8=237}{invalid_utf8=189}\x19{invalid_utf8=246}K{invalid_utf8=251}{invalid_utf8=181}{invalid_utf8=243}{invalid_utf8=244}{invalid_utf8=103}{invalid_utf8=64}{invalid_utf8=239}v\b{invalid_utf8=172}{invalid_utf8=207}]{invalid_utf8=169}R^{invalid_utf8=202}t7{invalid_utf8=240}j2`{invalid_utf8=234}{invalid_utf8=206}{invalid_utf8=72}{invalid_utf8=232}#{invalid_utf8=225}{invalid_utf8=143}\x14{invalid_utf8=247}{invalid_utf8=235}{invalid_utf8=108}{invalid_utf8=32}F{invalid_utf8=189}{invalid_utf8=150}{invalid_utf8=234}{invalid_utf8=196}{invalid_utf8=23}V{invalid_utf8=213}\n{invalid_utf8=234}{invalid_utf8=148}K\x19{invalid_utf8=216}X{invalid_utf8=228}12{invalid_utf8=172}W{invalid_utf8=164}{invalid_utf8=152}3{invalid_utf8=248}`*a��){invalid_utf8=155}\x11w\x01jhԕ\f{invalid_utf8=193}?\x16S\x1d\x04A{invalid_utf8=194}{invalid_utf8=200}{invalid_utf8=188}{invalid_utf8=218}", register178, constant248, constant95, null, true, 9.237908193918738e-35f, register100, true, undefined, -0.15351107716560364f, constant150, "{invalid_utf8=194}\x13{invalid_utf8=150}Ye{invalid_utf8=134}g\x0b={invalid_utf8=189}{invalid_utf8=196}i{invalid_utf8=243}\x02+c{invalid_utf8=215}I\x03(9", "{invalid_utf8=140}{invalid_utf8=137}{invalid_utf8=192}0-{invalid_utf8=161}{invalid_utf8=146}J{invalid_utf8=135}%IDl{invalid_utf8=195}\x01{invalid_utf8=170}tHS?\x11{invalid_utf8=134}C{invalid_utf8=134}{invalid_utf8=182}{invalid_utf8=247}\x02{invalid_utf8=155}k\x0b\\\x0b5{invalid_utf8=172}\x07{invalid_utf8=183}-#(\x06\x07{invalid_utf8=152}v{invalid_utf8=195}{invalid_utf8=204}{invalid_utf8=156}j{invalid_utf8=163}{invalid_utf8=212}Vt", undefined, constant41, "{invalid_utf8=131}{invalid_utf8=244}\x1c{invalid_utf8=140}{invalid_utf8=128}\x01{invalid_utf8=249}\fQ\x11{invalid_utf8=237}", "6{invalid_utf8=135}{invalid_utf8=179}QF{invalid_utf8=168}{invalid_utf8=174}Z\x18{invalid_utf8=130}$\x0e{invalid_utf8=198}", 9.832226096048301e-294, 5299878, constant57, constant19172, null, true, -3.321267390308765e+36f, "E[{invalid_utf8=192}u=0{invalid_utf8=208}{invalid_utf8=209}VBG{invalid_utf8=212}\x0e\x1acL{invalid_utf8=194}&r{invalid_utf8=217}G@3{invalid_utf8=192}{invalid_utf8=216}{invalid_utf8=219}\x06{invalid_utf8=226}\x19{invalid_utf8=177}Hk g\f{invalid_utf8=162}x{invalid_utf8=252}0\x01LQE{{invalid_utf8=224}\x19{invalid_utf8=143}{invalid_utf8=195}\f\f`\x19{invalid_utf8=140}", register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, 1116515676, register3, "\x19{invalid_utf8=140}{invalid_utf8=148}g{invalid_utf8=215}1{invalid_utf8=138}\x13({invalid_utf8=250}A{invalid_utf8=142}{invalid_utf8=135}{invalid_utf8=183}{invalid_utf8=132}a\t\x02P\x01{invalid_utf8=201}a{invalid_utf8=146}@{invalid_utf8=238}$|>X`\x022$J{invalid_utf8=233}{invalid_utf8=152}\x1d{\x13{invalid_utf8=128}M\x01=uj${invalid_utf8=204}\f{invalid_utf8=187}\x18{invalid_utf8=159}{invalid_utf8=221}{invalid_utf8=211}\f{invalid_utf8=144}\x19{invalid_utf8=136}{invalid_utf8=146}\x0f{invalid_utf8=247}\x1e{invalid_utf8=159}{invalid_utf8=150}\x01\x01{invalid_utf8=176}j\x1aL{invalid_utf8=168}{invalid_utf8=242}{invalid_utf8=176} {invalid_utf8=247}S{invalid_utf8=152}{invalid_utf8=195}%{invalid_utf8=139}{invalid_utf8=220}J{invalid_utf8=144}{invalid_utf8=192}\x1d 3;f`w{invalid_utf8=252}~\x18\tx\x0b>{invalid_utf8=191}37{invalid_utf8=148}\x14{invalid_utf8=250};{invalid_utf8=169}{invalid_utf8=129}Џ{invalid_utf8=142}\x198{invalid_utf8=139}\x1fT{invalid_utf8=175}{invalid_utf8=152}{invalid_utf8=167}{invalid_utf8=168}Y{invalid_utf8=137}\x04{invalid_utf8=255}", constant2026, null, register178, -6.803225433240679e+213, true, "\f{invalid_utf8=128}{invalid_utf8=203}\x12h{invalid_utf8=148}`w/{invalid_utf8=244}{invalid_utf8=193}{invalid_utf8=205}{invalid_utf8=81}{invalid_utf8=238}{invalid_utf8=177}_q{invalid_utf8=254}{invalid_utf8=218}{invalid_utf8=222}{invalid_utf8=251}q{invalid_utf8=202}}{invalid_utf8=169}{invalid_utf8=231}{invalid_utf8=175}{invalid_utf8=247}\x07\tN{invalid_utf8=139}{invalid_utf8=149}{invalid_utf8=199}\x15{invalid_utf8=207}Yw(77Z{invalid_utf8=179}S{invalid_utf8=217}f{invalid_utf8=241}{invalid_utf8=249}{invalid_utf8=58}{invalid_utf8=17}DiJ{invalid_utf8=171}֠{invalid_utf8=178}{invalid_utf8=219}g\x17w_{invalid_utf8=153}[{invalid_utf8=143}{invalid_utf8=195}{invalid_utf8=242}{invalid_utf8=131}{invalid_utf8=205}{invalid_utf8=213}{invalid_utf8=175}N{invalid_utf8=163}{invalid_utf8=219}?{invalid_utf8=204}uu{invalid_utf8=180}\x06*DC{invalid_utf8=136}`\'>{invalid_utf8=132}{invalid_utf8=245}{invalid_utf8=199}{invalid_utf8=32}{invalid_utf8=138}\r:{invalid_utf8=139}\x02r \x06{invalid_utf8=142}{invalid_utf8=198}d\b{invalid_utf8=143}݄\x05{invalid_utf8=192}\x19I\"z\b{invalid_utf8=234}G{invalid_utf8=194}g{invalid_utf8=169}{invalid_utf8=156}", -1.1128277464308506e+216, -1436558427, constant29662, constant7, -2.6932555780224513e-35f, constant24352, undefined, 3891560.5f, -1172478572, register140, -1.899866503759503e+60, 665590363, undefined, "@2\x18{invalid_utf8=246}{invalid_utf8=239}{invalid_utf8=215}{invalid_utf8=193}{invalid_utf8=207}\x10{invalid_utf8=233}0{invalid_utf8=174}{invalid_utf8=165}{invalid_utf8=219}s,{invalid_utf8=195}n{invalid_utf8=194}A=\n\x15֐{invalid_utf8=209}2\b=r\"p{invalid_utf8=159}\x01<Xϳ*{invalid_utf8=171}k{invalid_utf8=247}7{invalid_utf8=218}{invalid_utf8=213}{invalid_utf8=172}Vw^m{invalid_utf8=161}\x1d\x1dh{invalid_utf8=216}r^{invalid_utf8=179}H{invalid_utf8=152}{invalid_utf8=210}nO{invalid_utf8=171}{invalid_utf8=199}{invalid_utf8=192}\x18{invalid_utf8=224}{invalid_utf8=253}{invalid_utf8=222}_iw{invalid_utf8=195}{invalid_utf8=255}", constant47631, "+1{invalid_utf8=150}S{invalid_utf8=208}\x18{invalid_utf8=137}{invalid_utf8=153}{invalid_utf8=197}2E{invalid_utf8=172}ڥ{invalid_utf8=254}{invalid_utf8=141};{invalid_utf8=129}{invalid_utf8=234}UD\x1aN{invalid_utf8=153}2{invalid_utf8=160}{invalid_utf8=169}\x0f?{invalid_utf8=156}{invalid_utf8=136}{invalid_utf8=196}{invalid_utf8=200}@{invalid_utf8=143}{invalid_utf8=186}\x18\x1fk{{invalid_utf8=146}N{invalid_utf8=185}ⷙ{invalid_utf8=131}{invalid_utf8=145}{invalid_utf8=138}\x1f1{invalid_utf8=153}{invalid_utf8=200}{invalid_utf8=227}{invalid_utf8=167}{invalid_utf8=181}ݧ{invalid_utf8=243}/Ro{invalid_utf8=244}{invalid_utf8=190}G,{invalid_utf8=251}\x16?{invalid_utf8=221}\x1cX{invalid_utf8=146}{invalid_utf8=178}7\x0b#{invalid_utf8=174}tY{invalid_utf8=143}{invalid_utf8=169}{invalid_utf8=238}{invalid_utf8=254}{invalid_utf8=219}{invalid_utf8=242}{invalid_utf8=245}{invalid_utf8=51}{invalid_utf8=236}~{invalid_utf8=245}|{invalid_utf8=253}\x19{invalid_utf8=239}{invalid_utf8=207}{invalid_utf8=165}{invalid_utf8=153}{invalid_utf8=234}o{invalid_utf8=230}3\x02", constant36, null, register238, -7.09769514882879e+25f, "Ĳ{invalid_utf8=158}{invalid_utf8=152}b{invalid_utf8=234}{invalid_utf8=149}\x02ϲ{invalid_utf8=181}{invalid_utf8=130}{invalid_utf8=185}{invalid_utf8=171}5%{invalid_utf8=181}{invalid_utf8=146}\x02{invalid_utf8=204}\x01+{invalid_utf8=223}>{invalid_utf8=157}\x0e\x10{invalid_utf8=229}\n[{invalid_utf8=180}{invalid_utf8=220}jQ{invalid_utf8=232}+I\x06\x14\x06S{invalid_utf8=220}{invalid_utf8=235}{invalid_utf8=144};\f10o{invalid_utf8=181}{invalid_utf8=222}\n{invalid_utf8=231}{invalid_utf8=208}{invalid_utf8=38}P(.Q{invalid_utf8=178}\x10d{invalid_utf8=153}{invalid_utf8=239}{invalid_utf8=220}{invalid_utf8=31}{invalid_utf8=239}{invalid_utf8=193}{invalid_utf8=2}{invalid_utf8=145}g{invalid_utf8=163}qmd{invalid_utf8=162}\x19", null, register233, null, constant57835, -6.307689814273485e+25f, register56, undefined, true, register131, -4.797053831503742e-35f, constant136, constant153, "e8\t`{invalid_utf8=235}V{invalid_utf8=179}Uk_{invalid_utf8=169}s9a{invalid_utf8=165}~{invalid_utf8=148}0@{invalid_utf8=212}`dg3{invalid_utf8=138}d{invalid_utf8=169}r{invalid_utf8=183}{invalid_utf8=139}{invalid_utf8=223}R�{invalid_utf8=157}{invalid_utf8=192}{invalid_utf8=208}��{invalid_utf8=169}De{invalid_utf8=144}\x07.{invalid_utf8=160}{invalid_utf8=196}{invalid_utf8=206}-Kȋ%\\\x18{invalid_utf8=149}{invalid_utf8=136}{invalid_utf8=169}{invalid_utf8=152}!Pi`2 \x12&g{invalid_utf8=188}{invalid_utf8=254}{invalid_utf8=204}Zrb{invalid_utf8=212}r-^{invalid_utf8=210}{invalid_utf8=237}Խ(\x12{invalid_utf8=188}{invalid_utf8=244}{invalid_utf8=173}{invalid_utf8=144}u{invalid_utf8=145}{invalid_utf8=215}FC噏{invalid_utf8=143}{invalid_utf8=131}wU{invalid_utf8=193}{invalid_utf8=230}\x15{invalid_utf8=211}w{invalid_utf8=197}e{invalid_utf8=227}{invalid_utf8=240}{invalid_utf8=218}\x05Wo{invalid_utf8=188}c{invalid_utf8=160}m{invalid_utf8=173}{invalid_utf8=245}\t{invalid_utf8=130}MzT\x19ˤ\b{invalid_utf8=143}\x1c_Ux{invalid_utf8=251}̺/{invalid_utf8=193}{invalid_utf8=251}\x04\n{invalid_utf8=144} \x1dDI\bP\x1c{invalid_utf8=163}{invalid_utf8=227}{invalid_utf8=240}{invalid_utf8=248}cT{invalid_utf8=204}Z{invalid_utf8=143}{invalid_utf8=224}\r{invalid_utf8=158}s\x19{invalid_utf8=128}D,\t{invalid_utf8=131}{invalid_utf8=218}@{invalid_utf8=130}c{invalid_utf8=188}a{invalid_utf8=164}K{invalid_utf8=180}{invalid_utf8=139}{invalid_utf8=152}{invalid_utf8=235}{invalid_utf8=175}Wpg{invalid_utf8=167}{invalid_utf8=225}{invalid_utf8=248}{invalid_utf8=226}{invalid_utf8=201}`{invalid_utf8=187}\x1e{invalid_utf8=167}{invalid_utf8=227}{invalid_utf8=225}{invalid_utf8=138}\x03\x06&zx{invalid_utf8=129}{invalid_utf8=225}{invalid_utf8=134}4P\x0e{invalid_utf8=164}f\x06C", constant137, "{invalid_utf8=248}{invalid_utf8=254}{invalid_utf8=236} {invalid_utf8=130}{invalid_utf8=179}{invalid_utf8=134}", "T{invalid_utf8=245}{invalid_utf8=195}{invalid_utf8=25}{invalid_utf8=140}", register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, register192, -748016804, constant27, "m{invalid_utf8=212}{invalid_utf8=249}d0\"\x07{invalid_utf8=252}|p\t{invalid_utf8=129}pK{invalid_utf8=169}\x12 \x11\'{invalid_utf8=225}\x18\x04{invalid_utf8=129}{invalid_utf8=178}{invalid_utf8=130}{invalid_utf8=163}T", "\x19\x1ec\x193H\x07{invalid_utf8=243}\x07{invalid_utf8=231}1{invalid_utf8=134}\f\x03̌{invalid_utf8=188}{invalid_utf8=166}", null, "{invalid_utf8=248}t{invalid_utf8=131}{invalid_utf8=215}\x01 _W{invalid_utf8=156}{invalid_utf8=168}2L{invalid_utf8=252}{invalid_utf8=252}\'{invalid_utf8=195}\f{invalid_utf8=150}\n{invalid_utf8=197}\x01H{invalid_utf8=156}{invalid_utf8=137}\x06d{invalid_utf8=200}{invalid_utf8=239}{invalid_utf8=151}{invalid_utf8=134}\x014-io3{invalid_utf8=168}{invalid_utf8=243}{invalid_utf8=200}{invalid_utf8=130}{invalid_utf8=123}{invalid_utf8=255}", "{invalid_utf8=142}{invalid_utf8=228}{invalid_utf8=228}{invalid_utf8=58}b͏{invalid_utf8=135}{invalid_utf8=246}{invalid_utf8=154}{invalid_utf8=219}{invalid_utf8=204}n9/y{invalid_utf8=239}+{invalid_utf8=210}y?{invalid_utf8=251}Oo՛z\\u${invalid_utf8=143}Q5\x03\x1f{invalid_utf8=169}{invalid_utf8=178}l,{invalid_utf8=141}{invalid_utf8=166}{invalid_utf8=202}{invalid_utf8=197}-", "\x03{invalid_utf8=238}Y{invalid_utf8=235}{invalid_utf8=169}\x0b{invalid_utf8=185}\x0b]_[{invalid_utf8=152}", "${invalid_utf8=146}f2{invalid_utf8=137}8{invalid_utf8=131}c{invalid_utf8=208}{invalid_utf8=255}", undefined, undefined, null, -69706018, 1.949878782896706e+24f, undefined, constant40, "{invalid_utf8=152}kۢ{invalid_utf8=195}{invalid_utf8=221}f{invalid_utf8=147}i1{invalid_utf8=213}{invalid_utf8=213}@{invalid_utf8=144}\x06FI{invalid_utf8=238}\fv{invalid_utf8=140}J)3{invalid_utf8=238}{invalid_utf8=202}{invalid_utf8=69}z+\x05}%{invalid_utf8=211}L{invalid_utf8=231}\x02\":{invalid_utf8=252}1h{invalid_utf8=164}|+g{invalid_utf8=169}{invalid_utf8=185}{invalid_utf8=221}\x15Qa\bv{invalid_utf8=236}\b0{invalid_utf8=217}", constant10929, true, true, register124, 944653478
+Jump loc09ba
+loc0673:AsciiToChar
+BitAnd
+Unknown_7d
+DefineLocal2
+Jump loc0681
+loc067c:Jump loc0e34
+loc0681:SetVariable
+Jump loc0005
+loc0687:Push 0.0, "_root"
+GetVariable
+Push "game"
+GetMember
+Push "Gs"
+GetMember
+Push "getSoundFlag"
+CallMethod
+Not
+If loc06ea
+Push false, 1, "_root"
+GetVariable
+Push "game"
+GetMember
+Push "Gs"
+GetMember
+Push "setSoundFlag"
+CallMethod
+Pop
+Push 1, 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0721
+loc06ea:Push true, 1, "_root"
+GetVariable
+Push "game"
+GetMember
+Push "Gs"
+GetMember
+Push "setSoundFlag"
+CallMethod
+Pop
+Push 2, 1, "this"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0721:Jump loc09fd
+loc0726:Jump loc0687
+loc072b:Push "\x01"
+Jump loc073c
+loc0736:Unknown_03
+Jump loc0e34
+loc073c:GetVariable
+Push 127
+Equals
+Not
+If loc076d
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 521
+Add
+SetVariable
+Push true
+Jump loc072b
+loc076d:Push "\x01"
+GetVariable
+Push 648
+Equals
+Not
+If loc07c0
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 167
+Add
+SetVariable
+If loc07a4
+Jump loc07bb
+loc07a4:Push "\x01"
+Push "\x01"
+GetVariable
+Push 457
+Subtract
+SetVariable
+loc07bb:Jump loc072b
+loc07c0:Push "\x01"
+GetVariable
+Push 815
+Equals
+Not
+If loc07f2
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 457
+Subtract
+SetVariable
+Jump loc067c
+loc07f2:Push "\x01"
+GetVariable
+Push 358
+Equals
+Not
+If loc0824
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 268
+Add
+SetVariable
+Jump loc072b
+loc0824:Push "\x01"
+GetVariable
+Push 480
+Equals
+Not
+If loc086a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 146
+Add
+SetVariable
+ConstantPool "\r\x0f{invalid_utf8=218}", "IŸ{invalid_utf8=202}", "~{invalid_utf8=204}", "{invalid_utf8=147}\x1c"
+Jump loc072b
+loc086a:Push "\x01"
+GetVariable
+Push 257
+Equals
+Not
+If loc08bd
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 566
+Add
+SetVariable
+If loc08a1
+Jump loc08b8
+loc08a1:Push "\x01"
+Push "\x01"
+GetVariable
+Push 432
+Subtract
+SetVariable
+loc08b8:Jump loc072b
+loc08bd:Push "\x01"
+GetVariable
+Push 626
+Equals
+Not
+If loc08fa
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 194
+Add
+SetVariable
+Push "\x0f", 1
+Jump loc072b
+loc08fa:Push "\x01"
+GetVariable
+Push 820
+Equals
+Not
+If loc092d
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 626
+Subtract
+SetVariable
+DefineLocal
+Jump loc072b
+loc092d:Push "\x01"
+GetVariable
+Push 194
+Equals
+Not
+If loc0965
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 650
+Add
+SetVariable
+Push "\x0f"
+Jump loc072b
+loc0965:Push "\x01"
+GetVariable
+Push 844
+Equals
+Not
+If loc0998
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 731
+Subtract
+SetVariable
+GetVariable
+Jump loc072b
+loc0998:Push "\x01"
+GetVariable
+Push 113
+Equals
+Not
+If loc09cb
+Push "\x01"
+Push "\x01"
+loc09ba:GetVariable
+Push 144
+Add
+SetVariable
+Not
+Jump loc072b
+loc09cb:Push "\x01"
+GetVariable
+Push 391
+Equals
+Not
+If loc0a02
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 277
+Add
+SetVariable
+Jump loc0726
+loc09fd:Jump loc0aa9
+loc0a02:Push "\x01"
+GetVariable
+Push 823
+Equals
+Not
+If loc0a72
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 432
+Subtract
+SetVariable
+ConstantPool "_root", "game", "Gs", "getSoundFlag", "setSoundFlag", "this", "gotoAndStop"
+Jump loc072b
+loc0a72:Push "\x01"
+GetVariable
+Push 668
+Equals
+Not
+If loc0aa4
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 668
+Subtract
+SetVariable
+Jump loc0e34
+loc0aa4:Jump loc0736
+loc0aa9:Jump loc0e34
+loc0aae:Push "this"
+GetVariable
+Push "_alpha", 100
+SetMember
+Jump loc0ad3
+loc0ace:Jump loc0aae
+loc0ad3:Jump loc0add
+loc0ad8:Jump loc0ace
+loc0add:Jump loc0df8
+loc0ae2:Jump loc0ad8
+loc0ae7:DefineFunction "\x01\x02", 0 {
+Push 1752
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -163
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc0b2d:Push "\x01"
+Jump loc0b3e
+loc0b38:Unknown_03
+Jump loc0e34
+loc0b3e:GetVariable
+Push 932
+Equals
+Not
+If loc0b6f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 893
+Subtract
+SetVariable
+Push true
+Jump loc0b2d
+loc0b6f:Push "\x01"
+GetVariable
+Push 65
+Equals
+Not
+If loc0ba2
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 472
+Add
+SetVariable
+GetVariable
+Jump loc0b2d
+loc0ba2:Push "\x01"
+GetVariable
+Push 39
+Equals
+Not
+If loc0bf5
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 51
+Add
+SetVariable
+If loc0bd9
+Jump loc0bf0
+loc0bd9:Push "\x01"
+Push "\x01"
+GetVariable
+Push 426
+Add
+SetVariable
+loc0bf0:Jump loc0b2d
+loc0bf5:Push "\x01"
+GetVariable
+Push 519
+Equals
+Not
+If loc0c28
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 60
+Add
+SetVariable
+DefineLocal
+Jump loc0b2d
+loc0c28:Push "\x01"
+GetVariable
+Push 537
+Equals
+Not
+If loc0c5b
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 524
+Subtract
+SetVariable
+Not
+Jump loc0b2d
+loc0c5b:Push "\x01"
+GetVariable
+Push 579
+Equals
+Not
+If loc0c93
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 514
+Subtract
+SetVariable
+Push "\x0f"
+Jump loc0b2d
+loc0c93:Push "\x01"
+GetVariable
+Push 516
+Equals
+Not
+If loc0cc5
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 87
+Add
+SetVariable
+Jump loc0b2d
+loc0cc5:Push "\x01"
+GetVariable
+Push 90
+Equals
+Not
+If loc0cf7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 426
+Add
+SetVariable
+Jump loc0673
+loc0cf7:Push "\x01"
+GetVariable
+Push 603
+Equals
+Not
+If loc0d34
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 84
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc0b2d
+loc0d34:Push "\x01"
+GetVariable
+Push 859
+Equals
+Not
+If loc0d73
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 256
+Subtract
+SetVariable
+ConstantPool "h{invalid_utf8=230}", "{invalid_utf8=222}{invalid_utf8=234}{invalid_utf8=176}{invalid_utf8=234}"
+Jump loc0b2d
+loc0d73:Push "\x01"
+GetVariable
+Push 13
+Equals
+Not
+If loc0dc6
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 650
+Add
+SetVariable
+If loc0daa
+Jump loc0dc1
+loc0daa:Push "\x01"
+Push "\x01"
+GetVariable
+Push 0
+Add
+SetVariable
+loc0dc1:Jump loc0b2d
+loc0dc6:Push "\x01"
+GetVariable
+Push 663
+Equals
+Not
+If loc0dfd
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 632
+Subtract
+SetVariable
+Jump loc0ae2
+loc0df8:Jump loc0e34
+loc0dfd:Push "\x01"
+GetVariable
+Push 31
+Equals
+Not
+If loc0e2f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 31
+Subtract
+SetVariable
+Jump loc0e34
+loc0e2f:Jump loc0b38
+loc0e34:

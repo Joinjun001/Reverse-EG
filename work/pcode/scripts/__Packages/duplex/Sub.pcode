@@ -1,0 +1,531 @@
+Jump loc04c4
+loc0005:Jump loc08c0
+loc000a:Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Not
+Not
+If loc0035
+Push "_global"
+GetVariable
+Push "duplex", 0.0, "Object"
+NewObject
+SetMember
+loc0035:Pop
+Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Push "Sub"
+GetMember
+Not
+Not
+If loc04b9
+Push "duplex"
+GetVariable
+Push "Sub"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "lineCrossPoint"
+DefineFunction2 "", 8, 25, false, false, true, false, true, false, true, false, false, 16, "sx1", 12, "sy1", 22, "sx2", 21, "sy2", 17, "dx1", 13, "dy1", 24, "dx2", 23, "dy2" {
+Push undefined
+StoreRegister 6
+Pop
+Push undefined
+StoreRegister 5
+Pop
+Push register24, register17
+Subtract
+StoreRegister 6
+Pop
+Push register23, register13
+Subtract
+StoreRegister 5
+Pop
+Push register22, register16
+Subtract
+StoreRegister 18
+Pop
+Push register21, register12
+Subtract
+StoreRegister 14
+Pop
+Push 0.0, register14
+Subtract
+StoreRegister 2
+Pop
+Push register18
+StoreRegister 1
+Pop
+Push register2, register2
+Multiply
+Push register1, register1
+Multiply
+Add2
+Push 1, "Math"
+GetVariable
+Push "sqrt"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, 0.0
+Greater
+Not
+If loc015e
+Push 1, register3
+Divide
+StoreRegister 3
+Pop
+loc015e:Push register2, register3
+Multiply
+StoreRegister 2
+Pop
+Push register1, register3
+Multiply
+StoreRegister 1
+Pop
+Push 0.0, register16, register2
+Multiply
+Push register12, register1
+Multiply
+Add2
+Subtract
+StoreRegister 9
+Pop
+Push 0.0, register2, register17
+Multiply
+Push register1, register13
+Multiply
+Add2
+Push register9
+Add2
+Subtract
+Push register2, register6
+Multiply
+Push register1, register5
+Multiply
+Add2
+Divide
+StoreRegister 4
+Pop
+Push register17, register6, register4
+Multiply
+Add2
+StoreRegister 8
+Pop
+Push register13, register5, register4
+Multiply
+Add2
+StoreRegister 7
+Pop
+Push register8, register16
+Subtract
+StoreRegister 15
+Pop
+Push register7, register12
+Subtract
+StoreRegister 11
+Pop
+Push register8, register22
+Subtract
+StoreRegister 20
+Pop
+Push register7, register21
+Subtract
+StoreRegister 19
+Pop
+Push register15, register20
+Multiply
+Push register11, register19
+Multiply
+Add2
+StoreRegister 10
+Pop
+Push register10, 0.0
+Less2
+Not
+If loc027e
+Push register4, 0.0
+Greater
+PushDuplicate
+Not
+If loc0272
+Pop
+Push register4, 1
+Greater
+Not
+loc0272:Not
+If loc027e
+Push true
+Return
+loc027e:Push false
+Return
+}
+SetMember
+Push register2, "pointLength"
+DefineFunction2 "", 4, 7, false, false, true, false, true, false, true, false, false, 6, "ax", 4, "ay", 5, "bx", 3, "by" {
+Push register5, register6
+Subtract
+StoreRegister 2
+Pop
+Push register3, register4
+Subtract
+StoreRegister 1
+Pop
+Push register2, register2
+Multiply
+Push register1, register1
+Multiply
+Add2
+Push 1, "Math"
+GetVariable
+Push "sqrt"
+CallMethod
+Return
+}
+SetMember
+Push register2, "getC"
+DefineFunction2 "", 4, 6, false, false, true, false, true, false, true, false, false, 3, "x1", 2, "y1", 5, "x2", 4, "y2" {
+Push undefined
+StoreRegister 1
+Pop
+Push register5, register3
+Subtract
+StoreRegister 3
+Pop
+Push register4, register2
+Subtract
+StoreRegister 2
+Pop
+Push register3, register2, 2, "Math"
+GetVariable
+Push "atan2"
+CallMethod
+StoreRegister 1
+Pop
+Push register1, 3.141592653589793
+Divide
+StoreRegister 1
+Pop
+Push register1, 180
+Multiply
+StoreRegister 1
+Pop
+Push register1
+Return
+}
+SetMember
+Push register2, "getBezPoint"
+DefineFunction2 "", 4, 9, false, false, true, false, true, false, true, false, false, 6, "p0", 5, "p1", 4, "p2", 3, "d" {
+Push "x", 0.0, "y", 0.0, 2
+InitObject
+StoreRegister 2
+Pop
+Push 1, register3
+Subtract
+Push 1, register3
+Subtract
+Multiply
+StoreRegister 1
+Pop
+Push register2, "x", register2, "x"
+GetMember
+Push register1, register6, "x"
+GetMember
+Multiply
+Add2
+SetMember
+Push register2, "y", register2, "y"
+GetMember
+Push register1, register6, "y"
+GetMember
+Multiply
+Add2
+SetMember
+Push 2, register3
+Multiply
+Push 1, register3
+Subtract
+Multiply
+StoreRegister 1
+Pop
+Push register2, "x", register2, "x"
+GetMember
+Push register1, register5, "x"
+GetMember
+Multiply
+Add2
+SetMember
+Push register2, "y", register2, "y"
+GetMember
+Push register1, register5, "y"
+GetMember
+Multiply
+Add2
+SetMember
+Push register3, register3
+Multiply
+StoreRegister 1
+Pop
+Push register2, "x", register2, "x"
+GetMember
+Push register1, register4, "x"
+GetMember
+Multiply
+Add2
+SetMember
+Push register2, "y", register2, "y"
+GetMember
+Push register1, register4, "y"
+GetMember
+Multiply
+Add2
+SetMember
+Push register2
+Return
+}
+SetMember
+Push 1, null, "duplex"
+GetVariable
+Push "Sub"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc04b9:Pop
+Jump loc0884
+loc04bf:Jump loc000a
+loc04c4:DefineFunction "\x01\x02", 0 {
+Push 1542
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push 68
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc050a:Push "\x01"
+Jump loc051b
+loc0515:Unknown_03
+Jump loc08c0
+loc051b:GetVariable
+Push 113
+Equals
+Not
+If loc054c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 555
+Add
+SetVariable
+Push true
+Jump loc050a
+loc054c:Push "\x01"
+GetVariable
+Push 538
+Equals
+Not
+If loc0584
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 67
+Subtract
+SetVariable
+Push "\x0f"
+Jump loc050a
+loc0584:Push "\x01"
+GetVariable
+Push 774
+Equals
+Not
+If loc05b7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 13
+Subtract
+SetVariable
+Not
+Jump loc050a
+loc05b7:Push "\x01"
+GetVariable
+Push 359
+Equals
+Not
+If loc05f4
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 522
+Add
+SetVariable
+Push "\x0f", 1
+Jump loc050a
+loc05f4:Push "\x01"
+GetVariable
+Push 624
+Equals
+Not
+If loc0626
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 265
+Subtract
+SetVariable
+Jump loc050a
+loc0626:Push "\x01"
+GetVariable
+Push 881
+Equals
+Not
+If loc0659
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 343
+Subtract
+SetVariable
+DefineLocal
+Jump loc050a
+loc0659:Push "\x01"
+GetVariable
+Push 278
+Equals
+Not
+If loc068b
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 346
+Add
+SetVariable
+Jump loc0005
+loc068b:Push "\x01"
+GetVariable
+Push 471
+Equals
+Not
+If loc06be
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 303
+Add
+SetVariable
+GetVariable
+Jump loc050a
+loc06be:Push "\x01"
+GetVariable
+Push 702
+Equals
+Not
+If loc0702
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 343
+Subtract
+SetVariable
+ConstantPool "{invalid_utf8=133}{invalid_utf8=180}\x14", "{invalid_utf8=215}\x07\x07", "{invalid_utf8=235}/fi"
+Jump loc050a
+loc0702:Push "\x01"
+GetVariable
+Push 669
+Equals
+Not
+If loc07ac
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 281
+Subtract
+SetVariable
+ConstantPool "_global", "duplex", "Object", "Sub", "prototype", "lineCrossPoint", "Math", "sqrt", "pointLength", "getC", "atan2", "getBezPoint", "x", "y", "ASSetPropFlags"
+Jump loc050a
+loc07ac:Push "\x01"
+GetVariable
+Push 668
+Equals
+Not
+If loc07ff
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 390
+Subtract
+SetVariable
+If loc07e3
+Jump loc07fa
+loc07e3:Push "\x01"
+Push "\x01"
+GetVariable
+Push 346
+Add
+SetVariable
+loc07fa:Jump loc050a
+loc07ff:Push "\x01"
+GetVariable
+Push 761
+Equals
+Not
+If loc0852
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 92
+Subtract
+SetVariable
+If loc0836
+Jump loc084d
+loc0836:Push "\x01"
+Push "\x01"
+GetVariable
+Push 281
+Subtract
+SetVariable
+loc084d:Jump loc050a
+loc0852:Push "\x01"
+GetVariable
+Push 388
+Equals
+Not
+If loc0889
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 333
+Add
+SetVariable
+Jump loc04bf
+loc0884:Jump loc08c0
+loc0889:Push "\x01"
+GetVariable
+Push 721
+Equals
+Not
+If loc08bb
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 721
+Subtract
+SetVariable
+Jump loc08c0
+loc08bb:Jump loc0515
+loc08c0:

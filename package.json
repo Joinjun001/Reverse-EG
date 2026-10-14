@@ -1,0 +1,21 @@
+{
+  "name": "reverse-eg-slap",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "assets": "python3 -I re/build_assets.py",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "deploy:private": "bash scripts/deploy-private.sh"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vercel": "^61.1.0",
+    "vite": "8.3.1"
+  }
+}

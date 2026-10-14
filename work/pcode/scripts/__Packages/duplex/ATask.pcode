@@ -1,0 +1,662 @@
+Jump loc0949
+loc0005:Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Not
+Not
+If loc0030
+Push "_global"
+GetVariable
+Push "duplex", 0.0, "Object"
+NewObject
+SetMember
+loc0030:Pop
+Push "_global"
+GetVariable
+Push "duplex"
+GetMember
+Push "ATask"
+GetMember
+Not
+Not
+If loc093e
+Push "duplex"
+GetVariable
+Push "ATask"
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, "prototype"
+GetMember
+StoreRegister 2
+Pop
+Push register2, "inidata"
+DefineFunction2 "", 2, 4, false, true, true, false, true, false, true, false, false, 2, "ob", 3, "no" {
+Push register3
+StoreRegister 0
+Push 0.0
+StrictEquals
+If loc00f3
+Push register0, 1
+StrictEquals
+If loc0247
+Push register0, 2
+StrictEquals
+If loc039b
+Push register0, 3
+Jump loc00d8
+loc00d3:Jump loc0e4d
+loc00d8:StrictEquals
+If loc04ef
+Push register0, 4
+StrictEquals
+If loc0643
+Jump loc0797
+loc00f3:Push register2, "enemyMh", register2, "enemyHp", 3000
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "enemyLk", 5
+SetMember
+Push register2, "enemyPw", 40
+SetMember
+Push register2, "enemyTs", 80
+SetMember
+Push register2, "enemyCt", 60
+SetMember
+Push register2, "enemyDr", 40
+SetMember
+Push register2, "enemyRr", 2
+SetMember
+Push register2, "enemyX1", 297
+SetMember
+Push register2, "enemyY1", 102
+SetMember
+Push register2, "enemyX2", 275
+SetMember
+Push register2, "enemyY2", 220
+SetMember
+Push register2, "enemyX1b", 293
+SetMember
+Push register2, "enemyY1b", 156
+SetMember
+Push register2, "enemyX2b", 284
+SetMember
+Push register2, "enemyY2b", 201
+SetMember
+Push register2, "enemyX1c", 350
+SetMember
+Push register2, "enemyY1c", 183
+SetMember
+Push register2, "enemyX2c", 346
+SetMember
+Push register2, "enemyY2c", 203
+SetMember
+Push register2, "enemyXX", 150
+SetMember
+Push register2, "enemyKC", 2
+SetMember
+Push register2, "hangeki", 40
+SetMember
+Push register2, "enemyTm", 3
+SetMember
+Push "Nomal", 1, register1, "background"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0797
+loc0247:Push register2, "enemyMh", register2, "enemyHp", 3500
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "enemyLk", 8
+SetMember
+Push register2, "enemyPw", 50
+SetMember
+Push register2, "enemyTs", 100
+SetMember
+Push register2, "enemyCt", 45
+SetMember
+Push register2, "enemyDr", 30
+SetMember
+Push register2, "enemyRr", 4
+SetMember
+Push register2, "enemyX1", 292
+SetMember
+Push register2, "enemyY1", 110
+SetMember
+Push register2, "enemyX2", 277
+SetMember
+Push register2, "enemyY2", 218
+SetMember
+Push register2, "enemyX1b", 302
+SetMember
+Push register2, "enemyY1b", 157
+SetMember
+Push register2, "enemyX2b", 297
+SetMember
+Push register2, "enemyY2b", 192
+SetMember
+Push register2, "enemyX1c", 349
+SetMember
+Push register2, "enemyY1c", 178
+SetMember
+Push register2, "enemyX2c", 346
+SetMember
+Push register2, "enemyY2c", 193
+SetMember
+Push register2, "enemyXX", 150
+SetMember
+Push register2, "enemyKC", 25
+SetMember
+Push register2, "hangeki", 30
+SetMember
+Push register2, "enemyTm", 2
+SetMember
+Push "Nomal", 1, register1, "background"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0797
+loc039b:Push register2, "enemyMh", register2, "enemyHp", 4500
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "enemyLk", 15
+SetMember
+Push register2, "enemyPw", 70
+SetMember
+Push register2, "enemyTs", 130
+SetMember
+Push register2, "enemyCt", 50
+SetMember
+Push register2, "enemyDr", 35
+SetMember
+Push register2, "enemyRr", 4
+SetMember
+Push register2, "enemyX1", 286
+SetMember
+Push register2, "enemyY1", 138
+SetMember
+Push register2, "enemyX2", 245
+SetMember
+Push register2, "enemyY2", 245
+SetMember
+Push register2, "enemyX1b", 292
+SetMember
+Push register2, "enemyY1b", 211
+SetMember
+Push register2, "enemyX2b", 268
+SetMember
+Push register2, "enemyY2b", 235
+SetMember
+Push register2, "enemyX1c", 332
+SetMember
+Push register2, "enemyY1c", 236
+SetMember
+Push register2, "enemyX2c", 324
+SetMember
+Push register2, "enemyY2c", 251
+SetMember
+Push register2, "enemyXX", 150
+SetMember
+Push register2, "enemyKC", 6
+SetMember
+Push register2, "hangeki", 45
+SetMember
+Push register2, "enemyTm", 3
+SetMember
+Push "Nomal", 1, register1, "background"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0797
+loc04ef:Push register2, "enemyMh", register2, "enemyHp", 3300
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "enemyLk", 40
+SetMember
+Push register2, "enemyPw", 120
+SetMember
+Push register2, "enemyTs", 160
+SetMember
+Push register2, "enemyCt", 30
+SetMember
+Push register2, "enemyDr", 30
+SetMember
+Push register2, "enemyRr", 4
+SetMember
+Push register2, "enemyX1", 282
+SetMember
+Push register2, "enemyY1", 87
+SetMember
+Push register2, "enemyX2", 264
+SetMember
+Push register2, "enemyY2", 210
+SetMember
+Push register2, "enemyX1b", 297
+SetMember
+Push register2, "enemyY1b", 157
+SetMember
+Push register2, "enemyX2b", 293
+SetMember
+Push register2, "enemyY2b", 179
+SetMember
+Push register2, "enemyX1c", 366
+SetMember
+Push register2, "enemyY1c", 150
+SetMember
+Push register2, "enemyX2c", 363
+SetMember
+Push register2, "enemyY2c", 170
+SetMember
+Push register2, "enemyXX", 130
+SetMember
+Push register2, "enemyKC", 15
+SetMember
+Push register2, "hangeki", 25
+SetMember
+Push register2, "enemyTm", 4
+SetMember
+Push "Nomal", 1, register1, "background"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0797
+loc0643:Push register2, "enemyMh", register2, "enemyHp", 7000
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register2, "enemyLk", 30
+SetMember
+Push register2, "enemyPw", 160
+SetMember
+Push register2, "enemyTs", 170
+SetMember
+Push register2, "enemyCt", 45
+SetMember
+Push register2, "enemyDr", 40
+SetMember
+Push register2, "enemyRr", 6
+SetMember
+Push register2, "enemyX1", 211
+SetMember
+Push register2, "enemyY1", 70
+SetMember
+Push register2, "enemyX2", 194
+SetMember
+Push register2, "enemyY2", 159
+SetMember
+Push register2, "enemyX1b", 237
+SetMember
+Push register2, "enemyY1b", 114
+SetMember
+Push register2, "enemyX2b", 237
+SetMember
+Push register2, "enemyY2b", 142
+SetMember
+Push register2, "enemyX1c", 304
+SetMember
+Push register2, "enemyY1c", 118
+SetMember
+Push register2, "enemyX2c", 304
+SetMember
+Push register2, "enemyY2c", 134
+SetMember
+Push register2, "enemyXX", 50
+SetMember
+Push register2, "enemyKC", 2
+SetMember
+Push register2, "hangeki", 30
+SetMember
+Push register2, "enemyTm", 5
+SetMember
+Push "Boss", 1, register1, "background"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc0797
+loc0797:Push register2, "data"
+GetMember
+Push "buff"
+GetMember
+Push 0.0, 30
+SetMember
+Push register2, "data"
+GetMember
+Push "buff"
+GetMember
+Push 2, 30
+SetMember
+Push register2, "data"
+GetMember
+Push register2, "START"
+GetMember
+Push 2, register2, "setEvent"
+CallMethod
+Pop
+Push register3, 1
+Add2
+Push 1, register1, "enemy"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register3, 1
+Add2
+Push 1, register1, "enemyname"
+GetMember
+Push "enemynameMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push register2, "guid_esc", false
+SetMember
+Push register2, "guid_atk", false
+SetMember
+Push register2, "enemyHp", register2, "enemyHp"
+GetMember
+Push register2, "enemyHp"
+GetMember
+Push 4
+Divide
+Push register2, "game_lv"
+GetMember
+Push 1
+Subtract
+Multiply
+Add2
+SetMember
+Push register2, "enemyLk", register2, "enemyLk"
+GetMember
+Push register2, "enemyLk"
+GetMember
+Push 4
+Divide
+Push register2, "game_lv"
+GetMember
+Push 1
+Subtract
+Multiply
+Add2
+SetMember
+Push register2, "enemyPw", register2, "enemyPw"
+GetMember
+Push 3, register2, "game_lv"
+GetMember
+Push 1
+Subtract
+Multiply
+Add2
+SetMember
+Push register2, "enemyDr", register2, "enemyDr"
+GetMember
+Push 2, register2, "game_lv"
+GetMember
+Push 1
+Subtract
+Multiply
+Subtract
+SetMember
+Push register2, "hangeki", register2, "hangeki"
+GetMember
+Push 2, register2, "game_lv"
+GetMember
+Push 1
+Subtract
+Multiply
+Subtract
+SetMember
+}
+SetMember
+Push 1, null, "duplex"
+GetVariable
+Push "ATask"
+GetMember
+Push "prototype"
+GetMember
+Push 3, "ASSetPropFlags"
+CallFunction
+loc093e:Pop
+Jump loc0e11
+loc0944:Jump loc0005
+loc0949:DefineFunction "\x01\x02", 0 {
+Push 1522
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -1690
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc098f:Push "\x01"
+Jump loc09a0
+loc099a:Unknown_03
+Jump loc0e4d
+loc09a0:GetVariable
+Push 810
+Equals
+Not
+If loc09d1
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 79
+Add
+SetVariable
+Push true
+Jump loc098f
+loc09d1:Push "\x01"
+GetVariable
+Push 197
+Equals
+Not
+If loc0a04
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 218
+Add
+SetVariable
+DefineLocal
+Jump loc098f
+loc0a04:Push "\x01"
+GetVariable
+Push 889
+Equals
+Not
+If loc0a57
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 717
+Subtract
+SetVariable
+If loc0a3b
+Jump loc0a52
+loc0a3b:Push "\x01"
+Push "\x01"
+GetVariable
+Push 111
+Add
+SetVariable
+loc0a52:Jump loc098f
+loc0a57:Push "\x01"
+GetVariable
+Push 172
+Equals
+Not
+If loc0a89
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 111
+Add
+SetVariable
+Jump loc00d3
+loc0a89:Push "\x01"
+GetVariable
+Push 283
+Equals
+Not
+If loc0abb
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 262
+Add
+SetVariable
+Jump loc098f
+loc0abb:Push "\x01"
+GetVariable
+Push 31
+Equals
+Not
+If loc0b0e
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 507
+Add
+SetVariable
+If loc0af2
+Jump loc0b09
+loc0af2:Push "\x01"
+Push "\x01"
+GetVariable
+Push 397
+Add
+SetVariable
+loc0b09:Jump loc098f
+loc0b0e:Push "\x01"
+GetVariable
+Push 545
+Equals
+Not
+If loc0b4b
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 348
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc098f
+loc0b4b:Push "\x01"
+GetVariable
+Push 334
+Equals
+Not
+If loc0b7e
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 303
+Subtract
+SetVariable
+Not
+Jump loc098f
+loc0b7e:Push "\x01"
+GetVariable
+Push 977
+Equals
+Not
+If loc0bc7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 432
+Subtract
+SetVariable
+ConstantPool "{invalid_utf8=131}%<Z", "{invalid_utf8=138}{invalid_utf8=159}{invalid_utf8=238}", "s`-", "{invalid_utf8=240}V{invalid_utf8=187}{invalid_utf8=207}"
+Jump loc098f
+loc0bc7:Push "\x01"
+GetVariable
+Push 415
+Equals
+Not
+If loc0bff
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 529
+Add
+SetVariable
+Push "\x0f"
+Jump loc098f
+loc0bff:Push "\x01"
+GetVariable
+Push 944
+Equals
+Not
+If loc0c32
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 610
+Subtract
+SetVariable
+GetVariable
+Jump loc098f
+loc0c32:Push "\x01"
+GetVariable
+Push 538
+Equals
+Not
+If loc0ddf
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 397
+Add
+SetVariable
+ConstantPool "_global", "duplex", "Object", "ATask", "prototype", "inidata", "enemyMh", "enemyHp", "enemyLk", "enemyPw", "enemyTs", "enemyCt", "enemyDr", "enemyRr", "enemyX1", "enemyY1", "enemyX2", "enemyY2", "enemyX1b", "enemyY1b", "enemyX2b", "enemyY2b", "enemyX1c", "enemyY1c", "enemyX2c", "enemyY2c", "enemyXX", "enemyKC", "hangeki", "enemyTm", "Nomal", "background", "gotoAndStop", "Boss", "data", "buff", "START", "setEvent", "enemy", "enemyname", "enemynameMC", "guid_esc", "guid_atk", "game_lv", "ASSetPropFlags"
+Jump loc098f
+loc0ddf:Push "\x01"
+GetVariable
+Push 935
+Equals
+Not
+If loc0e16
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 707
+Subtract
+SetVariable
+Jump loc0944
+loc0e11:Jump loc0e4d
+loc0e16:Push "\x01"
+GetVariable
+Push 228
+Equals
+Not
+If loc0e48
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 228
+Subtract
+SetVariable
+Jump loc0e4d
+loc0e48:Jump loc099a
+loc0e4d:

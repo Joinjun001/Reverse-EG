@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rose &amp; Camellia — Webcam</title>
+  </head>
+  <body>
+    <main>
+      <div id="frame">
+        <canvas id="stage"></canvas>
+
+        <div id="end" class="overlay" hidden>
+          <h2 id="end-text"></h2>
+          <button id="retry" class="primary">다시 하기</button>
+        </div>
+      </div>
+
+      <section id="coach" hidden aria-live="polite">
+        <div class="coach-main">
+          <p id="coach-label" class="coach-label"></p>
+          <h2 id="coach-title"></h2>
+          <p id="coach-text"></p>
+          <p id="coach-feedback"></p>
+        </div>
+        <div class="coach-side">
+          <div id="coach-progress" class="coach-progress"></div>
+          <div class="coach-actions">
+            <button id="coach-skip" class="ghost">건너뛰기</button>
+            <button id="coach-exit" class="ghost">튜토리얼 나가기</button>
+            <button id="coach-again" class="ghost" hidden>다시 하기</button>
+            <button id="coach-play" class="primary" hidden>실전 시작</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="title">
+      <div class="card">
+        <header class="hero">
+          <p class="eyebrow">웹캠 싸대기 실습판</p>
+          <h1>Rose &amp; Camellia</h1>
+          <p class="sub">원작 Nigoro (2007) · 리버스 엔지니어링 개인 학습용</p>
+        </header>
+
+        <h2 class="section-label">플레이 방법</h2>
+        <ol class="moves">
+          <li class="move">
+            <img src="/assets-original/img/btn_attack.png" alt="" width="48" height="48" />
+            <div>
+              <h3>공격 <span class="when">내 차례</span></h3>
+              <p>손을 <b>오른쪽</b>에 두면 준비 →<br />상대 얼굴 쪽으로 <b>← 빠르게</b> 휘두르기</p>
+              <p class="tip">볼(낮게)을 지나가면 크리티컬 ×2 · 느리면 피하고 반격해요</p>
+            </div>
+          </li>
+          <li class="move">
+            <img src="/assets-original/img/btn_evade.png" alt="" width="48" height="48" />
+            <div>
+              <h3>회피 <span class="when">상대 차례</span></h3>
+              <p><b>1·2단계</b> 손을 왼쪽에 뒀다가 <b>→ 오른쪽으로 휙</b></p>
+              <p><b>3·4단계</b> 몸(고개)을 <b>옆으로 빼거나 숙이기</b></p>
+              <p class="tip">상대가 손을 들 때가 신호예요</p>
+            </div>
+          </li>
+          <li class="move">
+            <img src="/assets-original/img/btn_counter.png" alt="" width="48" height="48" />
+            <div>
+              <h3>반격 <span class="when">회피 성공 후</span></h3>
+              <p>피하자마자 다시 <b>오른쪽</b>에서<br /><b>← 휘두르기</b></p>
+              <p class="tip">반격은 상대가 피하지 못해요</p>
+            </div>
+          </li>
+        </ol>
+
+        <h2 class="section-label">설정</h2>
+        <div class="settings">
+          <fieldset class="setting">
+            <legend>입력</legend>
+            <div class="segmented">
+              <label><input type="radio" name="input" value="camera" checked /><span>웹캠 (손 인식)</span></label>
+              <label><input type="radio" name="input" value="mouse" /><span>마우스 (원작 방식)</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="setting">
+            <legend>난이도</legend>
+            <div class="segmented">
+              <label><input type="radio" name="level" value="1" checked /><span>1 쉬움</span></label>
+              <label><input type="radio" name="level" value="2" /><span>2</span></label>
+              <label><input type="radio" name="level" value="3" /><span>3 <i class="tag">몸 회피</i></span></label>
+              <label><input type="radio" name="level" value="4" /><span>4 어려움 <i class="tag">몸 회피</i></span></label>
+            </div>
+            <p class="hint">1·2단계는 손으로, 3·4단계는 몸으로 피해요(웹캠 모드). 단계가 오를수록 상대 체력·공격력도 올라가요.</p>
+          </fieldset>
+          <div class="setting">
+            <label class="legend" for="gain">스윙 감도 <output id="gain-value"></output></label>
+            <input id="gain" type="range" min="1" max="8" step="0.5" value="3" />
+            <p class="hint">손은 마우스보다 느리게 움직여서 속도를 이만큼 곱해 줘요. 게임 중 속도 막대가 흰 눈금을 넘기기 어려우면 올리세요.</p>
+          </div>
+        </div>
+
+        <div class="start-row">
+          <button id="tutorial" class="primary">튜토리얼 <small>웹캠 세팅 + 연습 · 처음이라면 추천</small></button>
+          <button id="start" class="secondary">바로 시작</button>
+        </div>
+        <p id="status" role="status"></p>
+
+        <footer class="keys">
+          <span><kbd>D</kbd> 판정선</span>
+          <span><kbd>C</kbd> 웹캠 미리보기</span>
+          <span><kbd>R</kbd> 처음부터</span>
+          <span><kbd>1</kbd>–<kbd>5</kbd> 적 선택 · 무적 (원작 디버그 기능)</span>
+        </footer>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

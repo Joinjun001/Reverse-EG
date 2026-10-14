@@ -1,0 +1,347 @@
+Jump loc01d0
+loc0005:Stop
+Unknown_02
+Jump loc05c3
+loc000c:Push constant0
+GetVariable
+Push constant1
+GetMember
+Not
+Not
+If loc0037
+Push constant0
+GetVariable
+Push constant1, 0.0, constant2
+NewObject
+SetMember
+loc0037:Pop
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant3
+GetMember
+Not
+Not
+If loc01c5
+Push constant1
+GetVariable
+Push constant3
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+Push undefined
+StoreRegister 2
+Pop
+Push register1, constant4, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant5
+GetMember
+Push 1, constant6
+NewObject
+SetMember
+Push register1, constant7, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant8
+GetMember
+Push 1, constant6
+NewObject
+SetMember
+Push 0.0
+StoreRegister 2
+Pop
+loc00c5:Push register2, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant5
+GetMember
+Equals2
+Not
+Not
+If loc0108
+Push register1, constant4
+GetMember
+Push register2, 0.0
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc00c5
+loc0108:Push 0.0
+StoreRegister 2
+Pop
+loc0119:Push register2, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant8
+GetMember
+Equals2
+Not
+Not
+If loc015c
+Push register1, constant7
+GetMember
+Push register2, 0.0
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc0119
+loc015c:Push register1, constant9, -1
+SetMember
+Push register1, constant10, -1
+SetMember
+}
+StoreRegister 1
+SetMember
+Push register1, constant11
+GetMember
+StoreRegister 2
+Pop
+Push register1, constant5, 20
+SetMember
+Push register1, constant8, 5
+SetMember
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant11
+GetMember
+Push 3, constant12
+CallFunction
+loc01c5:Pop
+Jump loc0375
+loc01cb:Jump loc000c
+loc01d0:DefineFunction "\x01\x02", 0 {
+Push 1986
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -1323
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc0216:Push "\x01"
+Jump loc0227
+loc0221:Unknown_03
+Jump loc05c3
+loc0227:GetVariable
+Push 942
+Equals
+Not
+If loc0258
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 793
+Subtract
+SetVariable
+Push true
+Jump loc0216
+loc0258:Push "\x01"
+GetVariable
+Push 478
+Equals
+Not
+If loc028b
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 174
+Subtract
+SetVariable
+DefineLocal
+Jump loc0216
+loc028b:Push "\x01"
+GetVariable
+Push 149
+Equals
+Not
+If loc02de
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 133
+Add
+SetVariable
+If loc02c2
+Jump loc02d9
+loc02c2:Push "\x01"
+Push "\x01"
+GetVariable
+Push 205
+Add
+SetVariable
+loc02d9:Jump loc0216
+loc02de:Push "\x01"
+GetVariable
+Push 594
+Equals
+Not
+If loc0311
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 375
+Subtract
+SetVariable
+Not
+Jump loc0216
+loc0311:Push "\x01"
+GetVariable
+Push 282
+Equals
+Not
+If loc0343
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 205
+Add
+SetVariable
+Jump loc0005
+loc0343:Push "\x01"
+GetVariable
+Push 534
+Equals
+Not
+If loc037a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 50
+Add
+SetVariable
+Jump loc01cb
+loc0375:Jump loc05c3
+loc037a:Push "\x01"
+GetVariable
+Push 758
+Equals
+Not
+If loc03b7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 280
+Subtract
+SetVariable
+Push "\x0f", 1
+Jump loc0216
+loc03b7:Push "\x01"
+GetVariable
+Push 304
+Equals
+Not
+If loc03ef
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 9
+Subtract
+SetVariable
+Push "\x0f"
+Jump loc0216
+loc03ef:Push "\x01"
+GetVariable
+Push 487
+Equals
+Not
+If loc0421
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 271
+Add
+SetVariable
+Jump loc0216
+loc0421:Push "\x01"
+GetVariable
+Push 722
+Equals
+Not
+If loc046f
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 36
+Add
+SetVariable
+ConstantPool "\x04{invalid_utf8=167}{invalid_utf8=249}", "D{invalid_utf8=251}F", "{invalid_utf8=177}{invalid_utf8=194}#)", "x{invalid_utf8=230}{invalid_utf8=130}+", "{invalid_utf8=217}\\{invalid_utf8=137}{invalid_utf8=245}"
+Jump loc0216
+loc046f:Push "\x01"
+GetVariable
+Push 295
+Equals
+Not
+If loc04a2
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 299
+Add
+SetVariable
+GetVariable
+Jump loc0216
+loc04a2:Push "\x01"
+GetVariable
+Push 219
+Equals
+Not
+If loc04f5
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 33
+Add
+SetVariable
+If loc04d9
+Jump loc04f0
+loc04d9:Push "\x01"
+Push "\x01"
+GetVariable
+Push 282
+Add
+SetVariable
+loc04f0:Jump loc0216
+loc04f5:Push "\x01"
+GetVariable
+Push 252
+Equals
+Not
+If loc058c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 282
+Add
+SetVariable
+ConstantPool "_global", "duplex", "Object", "Buffer", "buff", "MAXBUFF", "Array", "sys", "SYSTEM", "myNum", "state", "prototype", "ASSetPropFlags"
+Jump loc0216
+loc058c:Push "\x01"
+GetVariable
+Push 584
+Equals
+Not
+If loc05be
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 584
+Subtract
+SetVariable
+Jump loc05c3
+loc05be:Jump loc0221
+loc05c3:

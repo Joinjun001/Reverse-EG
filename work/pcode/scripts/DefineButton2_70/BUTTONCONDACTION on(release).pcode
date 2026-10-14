@@ -1,0 +1,532 @@
+Jump loc04c2
+loc0005:Jump loc01a5
+loc000a:Push constant0, constant1
+SetVariable
+Push constant2, constant3, 15
+GetProperty
+SetVariable
+Push constant4, 4, 0.0, 2, constant2
+GetVariable
+Push constant5
+CallMethod
+SetVariable
+Push constant6, 0.0, constant7
+NewObject
+SetVariable
+Push constant6
+GetVariable
+Push 0.0, constant8
+SetMember
+Push constant6
+GetVariable
+Push 1, constant9
+SetMember
+Push constant6
+GetVariable
+Push 2, constant10
+SetMember
+Push constant6
+GetVariable
+Push 3, constant11
+SetMember
+Push constant6
+GetVariable
+Push 4, constant12
+SetMember
+Push constant6
+GetVariable
+Push 5, constant13
+SetMember
+Push constant6
+GetVariable
+Push 6, constant14
+SetMember
+Push constant6
+GetVariable
+Push 7, constant15
+SetMember
+Push constant6
+GetVariable
+Push 8, constant16
+SetMember
+Push constant6
+GetVariable
+Push 9, constant17
+SetMember
+Push constant6
+GetVariable
+Push 10, constant18
+SetMember
+Push constant6
+GetVariable
+Push 11, constant19
+SetMember
+Push constant6
+GetVariable
+Push 12, constant20
+SetMember
+Push constant6
+GetVariable
+Push 13, constant21
+SetMember
+Push constant6
+GetVariable
+Push 14, constant22
+SetMember
+Push constant6
+GetVariable
+Push 15, constant23
+SetMember
+Push constant6
+GetVariable
+Push 16, constant24
+SetMember
+Push constant6
+GetVariable
+Push 17, constant25
+SetMember
+Push constant6
+GetVariable
+Push 18, constant26
+SetMember
+Push constant6
+Jump loc01a6
+loc01a5:Play
+loc01a6:GetVariable
+Push 19, constant27
+SetMember
+Push constant6
+GetVariable
+Push 20, constant28
+SetMember
+Push constant6
+GetVariable
+Push 21, constant29
+SetMember
+Push constant6
+GetVariable
+Push 22, constant30
+SetMember
+Push constant6
+GetVariable
+Push 23, constant31
+SetMember
+Push constant6
+GetVariable
+Push 24, constant32
+SetMember
+Push constant6
+GetVariable
+Push 25, constant33
+SetMember
+Push constant6
+GetVariable
+Push 26, constant34
+SetMember
+Push constant6
+GetVariable
+Push 27, constant35
+SetMember
+Push constant6
+GetVariable
+Push 28, constant36
+SetMember
+Push constant6
+GetVariable
+Push 29, constant37
+SetMember
+Push constant6
+GetVariable
+Push 30, constant38
+SetMember
+Push constant6
+GetVariable
+Push 31, constant39
+SetMember
+Push constant6
+GetVariable
+Push 32, constant40
+SetMember
+Push constant6
+GetVariable
+Push 33, constant41
+SetMember
+Push constant6
+GetVariable
+Push 34, constant42
+SetMember
+Push constant6
+GetVariable
+Push 35, constant43
+SetMember
+Push constant6
+GetVariable
+Push 36, constant44
+SetMember
+Push constant45, constant6
+GetVariable
+Push 27
+GetMember
+Push constant6
+GetVariable
+Push 22
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 10
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 23
+GetMember
+Add2
+SetVariable
+Push constant46, constant6
+GetVariable
+Push 34
+GetMember
+Push constant6
+GetVariable
+Push 30
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 25
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 25
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 14
+GetMember
+Add2
+SetVariable
+Push constant47, constant6
+GetVariable
+Push 36
+GetMember
+Push constant6
+GetVariable
+Push 12
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 24
+GetMember
+Add2
+Push constant6
+GetVariable
+Push 22
+GetMember
+Add2
+SetVariable
+Push constant48, constant46
+GetVariable
+Push constant45
+GetVariable
+Add2
+Push constant47
+GetVariable
+Add2
+SetVariable
+Push 22, 7, 2, constant2
+GetVariable
+Push constant5
+CallMethod
+Push constant0
+GetVariable
+StringEquals
+Not
+If loc03ed
+Jump loc0467
+loc03ed:Push "url2"
+GetVariable
+Push "file"
+StringEquals
+Not
+Not
+If loc0467
+Push "_root"
+GetVariable
+Push "concita"
+GetMember
+Push 0.0
+Greater
+Not
+If loc043c
+Push "http://www.", "safezone"
+GetVariable
+Add2
+Push "/home.html"
+Add2
+Push ""
+GetURL2 false, false, 0
+Jump loc0467
+loc043c:Push "_root"
+GetVariable
+Push "concita", 0.0
+SetMember
+Push "_root"
+GetVariable
+Push "concita", "_root"
+GetVariable
+Push "concita"
+GetMember
+Increment
+SetMember
+loc0467:Push "this"
+GetVariable
+Push "level_changer"
+GetMember
+Push "enabled", false
+SetMember
+Push 0.0, "this"
+GetVariable
+Push "play"
+CallMethod
+Pop
+Push 0.0, 1, "_root"
+GetVariable
+Push "game"
+GetMember
+Push "Gs"
+GetMember
+Push "playSE"
+CallMethod
+Pop
+Jump loc057c
+loc04bd:Jump loc000a
+loc04c2:DefineFunction "\x01\x02", 0 {
+Push 914
+Push 511
+Modulo
+Push 5
+Multiply
+Return
+}
+Push "\x01"
+Push -1659
+Push 0.0, "\x01\x02"
+CallFunction
+Add2
+DefineLocal
+loc0508:Push "\x01"
+Jump loc0519
+loc0513:Unknown_03
+Jump loc0951
+loc0519:GetVariable
+Push 356
+Equals
+Not
+If loc054a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 128
+Add
+SetVariable
+Push true
+Jump loc0508
+loc054a:Push "\x01"
+GetVariable
+Push 867
+Equals
+Not
+If loc0581
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 78
+Add
+SetVariable
+Jump loc04bd
+loc057c:Jump loc0951
+loc0581:Push "\x01"
+GetVariable
+Push 484
+Equals
+Not
+If loc05d4
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 315
+Add
+SetVariable
+If loc05b8
+Jump loc05cf
+loc05b8:Push "\x01"
+Push "\x01"
+GetVariable
+Push 617
+Subtract
+SetVariable
+loc05cf:Jump loc0508
+loc05d4:Push "\x01"
+GetVariable
+Push 974
+Equals
+Not
+If loc0607
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 552
+Subtract
+SetVariable
+GetVariable
+Jump loc0508
+loc0607:Push "\x01"
+GetVariable
+Push 220
+Equals
+Not
+If loc0748
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 647
+Add
+SetVariable
+ConstantPool "safezonez", "xoomer.alice.it/giokif", "url", "", "url2", "substr", "alfanum", "Array", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z", "A", ".", "safezone2", "safezone1", "safezone3", "safezone", "file", "_root", "concita", "http://www.", "/home.html", "this", "level_changer", "enabled", "play", "game", "Gs", "playSE"
+Jump loc0508
+loc0748:Push "\x01"
+GetVariable
+Push 644
+Equals
+Not
+If loc0780
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 330
+Add
+SetVariable
+Push "\x0f"
+Jump loc0508
+loc0780:Push "\x01"
+GetVariable
+Push 799
+Equals
+Not
+If loc07b2
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 617
+Subtract
+SetVariable
+Jump loc0005
+loc07b2:Push "\x01"
+GetVariable
+Push 182
+Equals
+Not
+If loc07e4
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 157
+Add
+SetVariable
+Jump loc0508
+loc07e4:Push "\x01"
+GetVariable
+Push 552
+Equals
+Not
+If loc0837
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 332
+Subtract
+SetVariable
+If loc081b
+Jump loc0832
+loc081b:Push "\x01"
+Push "\x01"
+GetVariable
+Push 647
+Add
+SetVariable
+loc0832:Jump loc0508
+loc0837:Push "\x01"
+GetVariable
+Push 870
+Equals
+Not
+If loc086a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 226
+Subtract
+SetVariable
+DefineLocal
+Jump loc0508
+loc086a:Push "\x01"
+GetVariable
+Push 449
+Equals
+Not
+If loc08aa
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 110
+Subtract
+SetVariable
+ConstantPool "{invalid_utf8=250}oM{invalid_utf8=160}", "{invalid_utf8=143}{invalid_utf8=218}\t"
+Jump loc0508
+loc08aa:Push "\x01"
+GetVariable
+Push 339
+Equals
+Not
+If loc08e7
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 531
+Add
+SetVariable
+Push "\x0f", 1
+Jump loc0508
+loc08e7:Push "\x01"
+GetVariable
+Push 422
+Equals
+Not
+If loc091a
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 130
+Add
+SetVariable
+Not
+Jump loc0508
+loc091a:Push "\x01"
+GetVariable
+Push 945
+Equals
+Not
+If loc094c
+Push "\x01"
+Push "\x01"
+GetVariable
+Push 945
+Subtract
+SetVariable
+Jump loc0951
+loc094c:Jump loc0513
+loc0951:
